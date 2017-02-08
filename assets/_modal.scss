@@ -1,0 +1,59 @@
+.card {
+		text-align : center;
+}
+
+.modalnav {
+		li span {
+				display : block;
+				padding : 0.75em 0em;
+		}
+
+		button {
+				width      : 100%;
+				margin     : 30px 0 40px 0;
+				padding    : 30px;
+				color      : #222b58;
+				border     : solid 2px #222b58;
+				background : transparent;
+		}
+
+		.email,
+		.tel {
+				color           : #222b58;
+				text-decoration : none;
+				font-size       : 1.0em;
+				font-weight     : bold;
+				line-height     : 30px;
+		}
+
+		address {
+				margin-top : 10px;
+				color      : #222b58;
+		}
+}
+
+.close-btn,
+.close-btnfront {
+		padding     : 10px 20px 0px 0px;
+		color       : #222b58;
+		text-align  : right;
+		font-family : $helvetica;
+		font-size   : 3rem;
+}
+
+.close-btnfront:hover {
+		color  : #4a589e;
+		cursor : pointer;
+}
+
+.modallogoimg {
+		@include   span-columns (12 of 12);
+		padding  : 0 15rem;
+		
+}
+
+.modalnav {
+		@include    span-columns (12 of 12);
+		padding   : 0 15rem;
+		font-size : 2rem;
+}

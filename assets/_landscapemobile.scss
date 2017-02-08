@@ -1,0 +1,45 @@
+@media only screen
+       and (max-device-width : 1080px)
+       and (orientation      : landscape) {
+	       
+  .wholeheroimagelowtitle {
+    background          : url('../img/backgroundmobilelandscape.png');
+    background-size     : cover; 
+    width:100%;
+    height: 100vh;
+    
+    img {width:25%; margin-top:0; }
+    
+
+    h1 {
+      line-height : 0px;
+    }
+
+    h2 {
+      padding   : 0 50px;
+      font-size : 1.5rem;
+    }
+
+    button {
+      margin  : 10px 0 0px 0; font-size:1.0em;    }
+  }
+
+  #menubutton {
+    display         : block;
+    position        : relative;
+    padding         : 10px 20px;
+    text-decoration : none;
+    font-size       : 4rem;
+  }
+
+  .logomobiletext {
+    display : none;
+  }
+
+  .logomobileimage {
+    display    : block;
+    width      : 35%;
+    margin-top : 0px;
+  }
+
+ }
