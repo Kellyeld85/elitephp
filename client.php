@@ -1,7 +1,4 @@
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
+<?php include 'easy_contact/inc/config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,10 +10,15 @@
     <title>testing the grid</title>
     <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+     
 </head>
 
 <body>
-
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
   <header class="mobileheader">
 
   <!--Call your modal-->
@@ -32,15 +34,16 @@
         <div class="cards">
 	
 	        <div class="card1">
-		      <a href="corinthiahotel.php">
+		        <a href="banquetinghouse.php">
 		          <div class="card-image">
-		            <img src="img/clients/box_bg_corinthia.png" alt="Corinthia Hotel">
+		            <img src="img/clients/box_bg_banquethouse.jpg" alt="Banquet House">
 		            <div class="logoover">
-		            <img src="img/clients/corinthia-logo.png" alt="Corinthia Hotel Logo">
+		            <img src="img/clients/banquetinghouse-logo.png" alt="Banquet House Logo">
 		            <button>find out more</button>
 		            </div>
 		          </div>
-		      </a>
+		        </a>
+		        
 	        </div>
 	
 		    <div class="card1">
@@ -56,11 +59,11 @@
 	        </div>		
 	
 	        <div class="card1">
-		        <a href="theboltons.php">
+		        <a href="harrods.php">
 		          <div class="card-image">
-		            <img src="img/clients/box_bg_boltons.png" alt="The Boltons London">
+		            <img src="img/clients/box_bg_harrods.jpg" alt="Harrods">
 		            <div class="logoover">
-		            <img src="img/clients/boltons-logo.png" alt="The Boltons London logo">
+		            <img src="img/clients/harrods-logo.png" alt="Harrods Logo">
 		            <button>find out more</button>
 		            </div>
 		          </div>
@@ -84,15 +87,15 @@
 	    
 	    
 	        <div class="card1">
-		        <a href="westfieldlondon.php">
+		      <a href="corinthiahotel.php">
 		          <div class="card-image">
-		            <img src="img/clients/box_bg_westfield.jpg" alt="Heathrow Terminal">
+		            <img src="img/clients/box_bg_corinthia.png" alt="Corinthia Hotel">
 		            <div class="logoover">
-		            <img src="img/clients/westfield-logo.png" alt="Heathrow Logo">
+		            <img src="img/clients/corinthia-logo.png" alt="Corinthia Hotel Logo">
 		            <button>find out more</button>
 		            </div>
 		          </div>
-		        </a>
+		      </a>
 	        </div>
 	
 	
@@ -112,11 +115,11 @@
 	      <div class="cards">
 	        
 	        <div class="card1">
-		        <a href="banquetinghouse.php">
+		        <a href="westfieldlondon.php">
 		          <div class="card-image">
-		            <img src="img/clients/box_bg_banquethouse.jpg" alt="Banquet House">
+		            <img src="img/clients/box_bg_westfield.jpg" alt="Heathrow Terminal">
 		            <div class="logoover">
-		            <img src="img/clients/banquetinghouse-logo.png" alt="Banquet House Logo">
+		            <img src="img/clients/westfield-logo.png" alt="Heathrow Logo">
 		            <button>find out more</button>
 		            </div>
 		          </div>
@@ -124,11 +127,11 @@
 	        </div>
 	
 	        <div class="card1">
-		        <a href="harrods.php">
+		        <a href="theboltons.php">
 		          <div class="card-image">
-		            <img src="img/clients/box_bg_harrods.jpg" alt="Harrods">
+		            <img src="img/clients/box_bg_boltons.png" alt="The Boltons London">
 		            <div class="logoover">
-		            <img src="img/clients/harrods-logo.png" alt="Harrods Logo">
+		            <img src="img/clients/boltons-logo.png" alt="The Boltons London logo">
 		            <button>find out more</button>
 		            </div>
 		          </div>

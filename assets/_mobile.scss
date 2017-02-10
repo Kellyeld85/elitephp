@@ -17,7 +17,9 @@
    .halfheroimagecocoen{
 	    @include span-columns (16 of 16);
    }    
-
+   section{
+	   @include span-columns (16 of 16);
+   }
  
    .description {
  	  @include span-columns (16 of 16);

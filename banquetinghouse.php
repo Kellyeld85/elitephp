@@ -1,7 +1,4 @@
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
+<?php include 'easy_contact/inc/config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +10,17 @@
     <title>Chandelier Cleaning Banqueting House</title>
     <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+     
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
 </head>
 
 <body>
+
 
   <header class="mobileheader">
 

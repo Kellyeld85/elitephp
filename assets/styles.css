@@ -1323,6 +1323,13 @@ summary {
     -ms-flex-pack: center; }
     .project .halfheroimagecocoen:last-child {
       margin-right: 0; }
+  .project section {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 68.75%; }
+    .project section:last-child {
+      margin-right: 0; }
   .project .image {
     padding: 0;
     margin: 0;
@@ -1523,6 +1530,21 @@ summary {
   padding: 20px;
   border-left: #fff solid 10px; }
 
+.service {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .service::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .service .service-section {
+    display: table-cell;
+    width: 100%; }
+    .service .service-section .sectionone, .service .service-section .sectionone {
+      display: table-cell;
+      width: 50%; }
+
 /* media boxes end */
 @media screen and (max-width: 1680px) {
   aside {
@@ -1532,6 +1554,9 @@ summary {
     display: table-cell;
     width: 100%; }
     .project .halfheroimagecocoen {
+      display: table-cell;
+      width: 100%; }
+    .project section {
       display: table-cell;
       width: 100%; }
     .project .description {
