@@ -39,7 +39,6 @@
         }, options);
 
         var closeBt = $('.close-'+settings.modalTarget);
-
         //console.log(closeBt)
 
         var href = $(modal).attr('href'),

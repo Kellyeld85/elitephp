@@ -1,7 +1,4 @@
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
+<?php include 'easy_contact/inc/config.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,10 +11,15 @@
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+
 </head>
 
 <body>
-
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
   <header class="mobileheader">
 
   <!--Call your modal-->

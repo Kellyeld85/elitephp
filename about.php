@@ -1,3 +1,5 @@
+<?php include 'easy_contact/inc/config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +10,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>testing the grid</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+
 </head>
 
 <body>

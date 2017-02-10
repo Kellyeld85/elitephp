@@ -2,22 +2,12 @@
 
 	//session_start();
 	$successSent = false;
-	if (!isset($success)) {
-		$GLOBALS['success'] = '';
-	}
-?>
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-	<script type='text/javascript'></script>
-	<script type='text/javascript'>
-	
-    $(window).load(function(){	
-        $('#animatedModal').modal('show');		
+	echo"<script type='text/javascript'>
+    $(window).load(function(){
+        $('#animatedModal').modal('show');
 	    });
-	</script>
-<?php
+	</script>";
+	
 	if (!isset($_POST["submit"])) {
   
 	}
@@ -373,11 +363,13 @@
 				$smtpMailResponder->send();
 				
 				
-			}			
+			}
+			
+			
 			
 			$successSent = true;
 			
-			$success = "yes";
+			
 			//Redirection
 			if ($enableRedirection)
 				echo '<script>location.href = "'.$redirectToURL.'"</script>';
@@ -385,7 +377,11 @@
 		else 
 		{
 			$successSent = false;
-			$success = "no";		
-		}		
+		
+		}
+		
 	}
+
+
+
 ?>

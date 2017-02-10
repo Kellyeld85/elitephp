@@ -35,8 +35,7 @@
        <div class="container">
 
         <div class="wholeheroimagelowtitle">
-            <img class="logomobileimage" src="img/logomobile.png" alt="elite logo">
-            <h1 class="logomobiletext">elite chandelier services</h1>
+                        <h1 class="logomobiletext">elite chandelier services</h1>
             <h2>cleaning and servicing chandeliers since 1910</h2>
 
             <a href="about.php"><button>Explore Our History</button></a>
@@ -46,7 +45,7 @@
 </body>
 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.js"></script>
+    <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
 

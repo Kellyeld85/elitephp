@@ -187,7 +187,13 @@ summary {
   @include justify-content(center);
 }
 
+section{
+	@include span-columns (11 of 16);	
+}
+
+
 .image{
+	
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -211,7 +217,7 @@ summary {
 	}
 
  .description {
-	@include span-columns (5 of 16);
+	@include span-columns (5 of 16);	
 	margin: 20px;
 	padding: 20px;
 	h1{
@@ -478,6 +484,22 @@ summary {
    transform: translate(0%, 15%);
      padding:50px;
   }
+
+
+//test
+
+.service{
+	@include outer-container (100%);
+	.service-section{
+		@include span-columns(12 of 12);
+		.sectionone, .sectionone{
+			@include span-columns(6 of 12);
+			
+		}
+	}
+}
+
+
 
 
 

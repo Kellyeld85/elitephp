@@ -1,8 +1,4 @@
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
-
+<?php include 'easy_contact/inc/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,9 +9,15 @@
     <title>Harrods Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+
 </head>
 
 <body>
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
 
   <header class="mobileheader">
 
