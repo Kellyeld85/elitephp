@@ -32,23 +32,23 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section>
             <div class="image">
               <img src="img/clients/theboltonsmain.jpg" alt="">
-              
+
             </div>
 
-            <div class="styledstrip"><a href="heathrow.php"><h3 class="previous">❮ Previous</h3></a> <a href="privateresidentliverpool.php"> <h3 class="next">Next  ❯</h3></a> </div>
+            <div class="styledstrip"><a href="heathrow.php"><h3 class="previous">❮</h3></a> <a href="privateresidentliverpool.php"> <h3 class="next">❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
-  		</section>  		
+
+  		</section>
   		<div class="description">
 		      	<h1>Private Resident at The Boltons London</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
 			  <h1>Testimonal</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-		      
+
   		</div>
 
 	</div>
@@ -56,7 +56,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 	  	<img src="img/clients/theboltons01.jpg" alt="">
 	  </div>
@@ -66,7 +66,7 @@
 	  <div class="clientcard">
 	  	<img src="img/clients/theboltons03.jpg" alt="">
 	  </div>
-	
+
 	   <div class="clientcard">
 	  	<img src="img/clients/theboltons04.jpg" alt="">
 	  </div>
@@ -76,21 +76,21 @@
 	  <div class="clientcard">
 	  	<img src="img/clients/theboltons06.jpg" alt="">
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 
  <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/cocoen.js"></script>
     <script src="js/flip.min.js"></script>
 
