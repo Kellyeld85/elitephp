@@ -1523,20 +1523,87 @@ summary {
   padding: 20px;
   border-left: #fff solid 10px; }
 
+.services {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  overflow: hidden; }
+  .services::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .services::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.blue {
+  background: #222b58; }
+
+.services-area {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%; }
+  .services-area:last-child {
+    margin-right: 0; }
+  .services-area img {
+    padding: 20px; }
+  .services-area p {
+    font-size: 1.5rem; }
+  .services-area ul {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 1.5em;
+    margin-top: 40%;
+    padding: 40px;
+    list-style-type: none; }
+
+.blue {
+  background: #222b58;
+  margin-bottom: 20px; }
+
+.services-clients img {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  padding: 0 10px; }
+  .services-clients img:last-child {
+    margin-right: 0; }
+
+.align {
+  top: 15%;
+  left: 0%;
+  transform: translate(0%, 15%);
+  padding: 50px; }
+
 /* media boxes end */
 @media screen and (max-width: 1680px) {
   aside {
     padding: 30px 40px; } }
 @media screen and (max-width: 1530px) {
   .project {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%; }
+    .project:last-child {
+      margin-right: 0; }
     .project .halfheroimagecocoen {
-      display: table-cell;
+      float: left;
+      display: block;
+      margin-right: 0%;
       width: 100%; }
+      .project .halfheroimagecocoen:last-child {
+        margin-right: 0; }
     .project .description {
-      display: table-cell;
+      float: left;
+      display: block;
+      margin-right: 0%;
       width: 100%; }
+      .project .description:last-child {
+        margin-right: 0; }
     .project .image {
       display: cover; } }
 /* ------------- Media queries 1200px -------------- */
@@ -1563,8 +1630,12 @@ summary {
     font-size: 2.0rem; }
 
   .historycontent {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%; }
+    .historycontent:last-child {
+      margin-right: 0; }
 
   aside {
     display: none; }
@@ -1603,15 +1674,23 @@ summary {
     width: 60%; }
 
   .container {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     margin-left: 0%;
     overflow: auto; }
+    .container:last-child {
+      margin-right: 0; }
 
   .lightbox {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 50%;
     margin-bottom: -5px; }
+    .lightbox:last-child {
+      margin-right: 0; }
     .lightbox:nth-child(2n) {
       margin-right: 0; }
     .lightbox:nth-child(2n+1) {
@@ -1635,9 +1714,13 @@ summary {
     margin: 0 auto; }
 
   .lightbox_services {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     margin-bottom: -5px; }
+    .lightbox_services:last-child {
+      margin-right: 0; }
     .lightbox_services img {
       width: 100%; }
 
@@ -1660,10 +1743,14 @@ summary {
 /* ------------- Media queries 910px -------------- */
 @media screen and (max-width: 910px) {
   .getintough {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     margin: 0px;
     padding: 0px; }
+    .getintough:last-child {
+      margin-right: 0; }
 
   .hidden {
     display: none; }
@@ -1705,7 +1792,9 @@ summary {
 
   .client-description, .client-test {
     border: none;
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     display: -webkit-box;
     display: -moz-box;
@@ -1724,6 +1813,8 @@ summary {
     -moz-flex-direction: column;
     flex-direction: column;
     -ms-flex-direction: column; }
+    .client-description:last-child, .client-test:last-child {
+      margin-right: 0; }
 
   .client-test {
     margin-top: 20px; }
@@ -1751,16 +1842,24 @@ summary {
       margin-top: 10px; }
 
   .modallogoimg {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     min-width: 320px;
     padding: 0 5rem; }
+    .modallogoimg:last-child {
+      margin-right: 0; }
 
   .modalnav {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     padding: 0 5rem;
     font-size: 2rem; }
+    .modalnav:last-child {
+      margin-right: 0; }
 
   .sub-upload {
     display: block;
@@ -1769,26 +1868,42 @@ summary {
       width: 100%; }
 
   .modallogoimg {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     min-width: 320px;
     padding: 0 5rem; }
+    .modallogoimg:last-child {
+      margin-right: 0; }
 
   .modalnav {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%;
     padding: 0 5rem;
-    font-size: 2rem; } }
+    font-size: 2rem; }
+    .modalnav:last-child {
+      margin-right: 0; } }
 .modallogoimg {
-  display: table-cell;
+  float: left;
+  display: block;
+  margin-right: 0%;
   width: 100%;
   min-width: 320px;
   padding: 0 5rem; }
+  .modallogoimg:last-child {
+    margin-right: 0; }
 
 .modalnav {
-  display: table-cell;
+  float: left;
+  display: block;
+  margin-right: 0%;
   width: 100%;
   padding: 0 5rem; }
+  .modalnav:last-child {
+    margin-right: 0; }
 
 /* ------------- Ipad media queries 768px -------------- */
 @media screen and (max-width: 768px) {
@@ -1813,8 +1928,12 @@ summary {
 /* ------------- Ipad media queries 600px -------------- */
 @media screen and (max-width: 600px) {
   .lightbox {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%; }
+    .lightbox:last-child {
+      margin-right: 0; }
 
   .wholeheroimagelowtitle {
     background: url("../img/backgroundmobilephone.png");
@@ -1826,8 +1945,12 @@ summary {
 /* ------------- Ipad media queries 500px -------------- */
 @media (max-width: 500px) {
   .image-container .clientcard {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%; }
+    .image-container .clientcard:last-child {
+      margin-right: 0; }
 
   .side-image .side-image-content h1 {
     font-size: 2rem; } }

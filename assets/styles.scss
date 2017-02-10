@@ -174,11 +174,11 @@ summary {
 
 /* Client info page */
 .project {
-  @include   outer-container(100%); 
+  @include   outer-container(100%);
   @include   display(flex);
   @include 	 flex-direction(row-reverse);
-  
-  
+
+
 .halfheroimagecocoen {
   @include span-columns (11 of 16);
   @include align-items(center);
@@ -192,7 +192,7 @@ summary {
 	margin: 0;
 	display: flex;
     width: 100%;
-    
+
     img {width:100%;}
 }
 
@@ -208,8 +208,8 @@ summary {
 	    font-size : 1.4rem;
 	    padding-bottom: 20px;
 	  }
-	} 
-	
+	}
+
  .description {
 	@include span-columns (5 of 16);
 	margin: 20px;
@@ -224,7 +224,7 @@ summary {
 	    padding-bottom: 20px;
 	  }
 	}
-	
+
 }
 .styledstrip { background:#222b58; padding:30px;  width: 100%; flex: 1 0 auto; font-size: 0.5rem;
 	a{color: #fff; text-decoration: none; }
@@ -363,7 +363,7 @@ summary {
   $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
 
   background: $side-image-content-background;
-  
+
   img {
 	  width: 150%;
   }
@@ -440,6 +440,44 @@ summary {
     border-left: #fff solid 10px;
 }
 
+
+.services {
+  @include outer-container(100%);
+    @include row();
+    overflow: hidden;
+}
+
+.blue {background:#222b58;}
+
+.services-area {
+  @include span-columns(8 of 16);
+
+  img { padding:20px;  }
+ p {font-size: 1.5rem;  }
+ ul {background:rgba(255, 255, 255, 0.7);
+   font-size: 1.5em;
+   margin-top: 40%;
+   padding:40px;
+   list-style-type: none;}
+}
+
+.blue {background: #222b58; margin-bottom:20px; }
+
+
+.services-clients {
+
+ img {
+    @include span-columns(4 of 16);
+    padding:0 10px;
+}
+}
+
+.align {
+  top: 15%;
+   left: 0%;
+   transform: translate(0%, 15%);
+     padding:50px;
+  }
 
 
 
