@@ -45,7 +45,7 @@
               <img src="img/clients/privateresafter.jpg" alt="">
             </div>
 
-			<div class="styledstrip"><a href="harrods.php"><h3 class="previous">❮ Previous</h3></a> </div>
+			<div class="styledstrip"><a href="harrods.php"><h3 class="previous">❮ </h3></a> <a href="corinthiahotel.php"> <h3 class="next"> ❯</h3></a></div>
              <!-- <summary>The title of this page lorem</summary> -->
 
              

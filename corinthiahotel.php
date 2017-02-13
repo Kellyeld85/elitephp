@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>testing the grid</title>
+    <title>Corinthia Hotel London - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
@@ -45,7 +45,7 @@
               <img src="img/clients/corinthiaafter.jpg" alt="">
             </div>
 
-			<div class="styledstrip"><a href="heathrow.php"> <h3 class="next">Next  ❯</h3></a> </div>
+			<div class="styledstrip"><a href="privateresident.php"><h3 class="previous">❮ </h3></a><a href="theroyalparks.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
              

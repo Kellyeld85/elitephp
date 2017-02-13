@@ -44,7 +44,7 @@
               <img src="img/clients/privateresidentliverpoolafter.jpg" alt="">
             </div>
 
-			<div class="styledstrip"><a href="theboltons.php"><h3 class="previous">❮ Previous</h3></a> <a href="westfieldlondon.php"> <h3 class="next">Next  ❯</h3></a> </div>
+			<div class="styledstrip"><a href="theboltons.php"><h3 class="previous">❮ </h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
              
