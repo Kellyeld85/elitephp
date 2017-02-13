@@ -9,6 +9,7 @@
     <title>Corinthia Hotel London - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
     
      <!-- jQuery Plugin -->
@@ -68,23 +69,35 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/corinthia01.jpg" alt="">
+		  <a href="img/clients/Large/corinthia01.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia01.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/corinthia02.jpg" alt="">
+		  <a href="img/clients/Large/corinthia02.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia02.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/corinthia03.jpg" alt="">
+		  <a href="img/clients/Large/corinthia03.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia03.jpg" alt="">
+		  </a>
 	  </div>
 	
 	   <div class="clientcard">
-	  	<img src="img/clients/corinthia04.jpg" alt="">
+		  <a href="img/clients/Large/corinthia04.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia04.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/corinthia05.jpg" alt="">
+		  <a href="img/clients/Large/corinthia05.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia05.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/corinthia06.jpg" alt="">
+		  <a href="img/clients/Large/corinthia06.jpg" data-lightbox="Chandelier at a the Corinthia hotel">
+		  <img src="img/clients/corinthia06.jpg" alt="">
+		  </a>
 	  </div>
 	
 	</section>
@@ -96,7 +109,7 @@
 	
 </div>
 </body>
-
+		<script src="js/lightbox.min.js"></script>
    
     <script>
 $(document).ready(function(){  

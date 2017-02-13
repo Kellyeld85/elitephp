@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+	<link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 	
 	 <!-- jQuery Plugin -->
@@ -65,13 +66,19 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/theroyalparks01.jpg" alt="">
+		  <a href="img/clients/Large/theroyalparks01.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
+		  <img src="img/clients/theroyalparks01.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theroyalparks02.jpg" alt="">
+		  <a href="img/clients/Large/theroyalparks02.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
+		  <img src="img/clients/theroyalparks02.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theroyalparks03.jpg" alt="">
+		  <a href="img/clients/Large/theroyalparks03.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
+		  <img src="img/clients/theroyalparks03.jpg" alt="">
+		  </a>
 	  </div>
 	
 	</section>
@@ -83,7 +90,7 @@
 	
 </div>
 </body>
-
+	<script src="js/lightbox.min.js"></script>
     <script src="js/cocoen.js"></script>
 
 <script>

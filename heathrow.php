@@ -9,6 +9,7 @@
     <title>Heathrow VIP Lounges - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
@@ -64,23 +65,35 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/heathrow01.jpg" alt="">
+		  <a href="img/clients/Large/heathrow01.jpg" data-lightbox="heathrow01">
+		  	<img src="img/clients/heathrow01.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/heathrow02.jpg" alt="">
+		  <a href="img/clients/Large/heathrow02.jpg" data-lightbox="heathrow01">
+		  	<img src="img/clients/heathrow02.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/heathrow03.jpg" alt="">
+		  <a href="img/clients/Large/heathrow03.jpg" data-lightbox="heathrow01">
+		  	<img src="img/clients/heathrow03.jpg" alt="">
+		  </a>
 	  </div>
 	
 	   <div class="clientcard">
-	  	<img src="img/clients/heathrow04.jpg" alt="">
+		   <a href="img/clients/Large/heathrow04.jpg" data-lightbox="heathrow01">
+		   	  <img src="img/clients/heathrow04.jpg" alt="">
+		   </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/heathrow05.jpg" alt="">
+		  <a href="img/clients/Large/heathrow05.jpg" data-lightbox="heathrow01">
+		  	<img src="img/clients/heathrow05.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/heathrow06.jpg" alt="">
+		  <a href="img/clients/Large/heathrow06.jpg" data-lightbox="heathrow01">
+		  	<img src="img/clients/heathrow06.jpg" alt="">
+		  </a>
 	  </div>
 	
 	</section>
@@ -92,7 +105,8 @@
 	
 </div>
 </body>
-      <script src="js/cocoen.js"></script>
+	<script src="js/lightbox.min.js"></script>
+     <script src="js/cocoen.js"></script>
 <script>
 $(document).ready(function(){  
  	var success = '<?php echo $success; ?>';	
