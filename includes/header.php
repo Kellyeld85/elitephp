@@ -1,5 +1,5 @@
- 
- 
+
+
  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
  <div id="animatedModal">
  <div class="card">
@@ -35,11 +35,14 @@
 								      <li>
 								        <a href="load-testing.php">Load Testing</a>
 								      </li>
+                      <li>
+                       <a href="winch-testing.php">Winch Testing</a>
+                     </li>
 								      <li>
-								        <a href="installation-rewire.php">Installation &amp; Removal</a>
+								        <a href="installation-removal.php">Installation &amp; Removal</a>
 								      </li>
 								      <li>
-								        <a href="restore-repair.php">Restore &amp; Rewire</a>
+								        <a href="restore-repair.php">Restore &amp; Repair</a>
 								      </li>
 								      <li>
 								        <a href="secure-storage.php">Secure Storage</a>
@@ -50,8 +53,6 @@
 
 			            </ul>
 			        </nav>
-
-					<button>Email Us</button>
 
 			        <a class="tel" href="tel:+442084429119">Tel : 0208 442 9119</a>
 			        <br>
@@ -73,20 +74,20 @@
 	<div class="back">
 		<a href="#top"></a>
 		<div class="modal-content">
-			
+
 			<div class="contactformwrap">
-			
+
 			<div class="close-animatedModal close-btn">
 	          X
 	        </div>
 
 			<?php include 'easy_contact/inc/form.php'; ?>
-			
+
 			</div>
         </div>
 
 	</div>
-	
+
 </div>
 </div>
 
@@ -112,11 +113,14 @@
 					      <li>
 					        <a href="load-testing.php">Load testing</a>
 					      </li>
+                <li>
+                 <a href="winch-testing.php">Winch Testing</a>
+               </li>
 					      <li>
-					        <a href="installation-rewire.php">Installation &amp; Removal</a>
+					        <a href="installation-removal.php">Installation &amp; Removal</a>
 					      </li>
 					      <li>
-					        <a href="restore-repair.php">Restore &amp; Rewire</a>
+					        <a href="restore-repair.php">Restore &amp; Repair</a>
 					      </li>
 					      <li>
 					        <a href="secure-storage.php">Secure Storage</a>
@@ -128,7 +132,6 @@
             </ul>
         </nav>
 
-      <button>Email Us</button>
 
         <a class="tel" href="tel:+442084429119">Tel : 0208 442 9119</a>
         <br>

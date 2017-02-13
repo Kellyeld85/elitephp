@@ -44,22 +44,22 @@
             <h1 class="logomobiletext">elite chandelier services</h1>
             <h2>cleaning and servicing chandeliers since 1910</h2>
 
-            <a href="about.php"><button>Explore Our History</button></a>
+            <a href="services.php"><button>Explore Our Services</button></a>
     </div>
 
 
 </body>
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 </html>

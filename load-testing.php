@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 	<?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-	
+
 	<!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="js/flip.min.js"></script>
     <script src="js/customjs.js"></script>
- 
+
 </head>
 
 <body>
@@ -69,18 +69,10 @@ you might need to do another test to guarantee the safety of your chandelier.</p
 
 <div class="services">
 
-<div class="services-clients"> <img src="img/about.png"></div>
-<div class="services-clients"> <img src="img/about.png"></div>
-<div class="services-clients"> <img src="img/about.png"></div>
-<div class="services-clients"> <img src="img/about.png"></div>
 
-</div>
+<?php $loadtest = 1; include('includes/accordion.php') ?>
 
-<div class="services">
-    <div class="services-area">
-      <p>something here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-   <div class="services-area"> <p>something here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
 </div>
 
 <div class="clearfix"></div>
@@ -91,18 +83,19 @@ you might need to do another test to guarantee the safety of your chandelier.</p
     </div>
 
 </body>
-   
+
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
+<script src="js/accordion.js"></script>
 </html>

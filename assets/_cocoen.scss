@@ -1,53 +1,64 @@
 .cocoen {
-  position: relative;
-  overflow: hidden;
-  line-height: 0;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  cursor: pointer;
-  box-sizing: border-box; }
-  .cocoen *, .cocoen *:before, .cocoen *:after {
-    box-sizing: inherit; }
-  .cocoen img {
-    max-width: none; 
-    flex: 1 0 auto;}
-  .cocoen > img {
-    flex: 1 0 auto;
-    width: 100%;
-    display: block; 
-     margin: auto; 
-		  min-width: 50%;
-		  min-height: 50%;
-		  }
-  .cocoen > div:first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 50%;
-    overflow: hidden; }
-  .cocoen__drag {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    cursor: ew-resize;
-    background: #fff;
-    margin-left: -1px; }
-    .cocoen__drag:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      height: 50px;
-      width: 14px;
-      border: 3px solid #fff;
-      margin-left: -7px;
-      margin-top: -18px; 
+  box-sizing  : border-box;
+  position    : relative;
+  margin      : 0;
+  padding     : 0;
+  overflow    : hidden;
+  line-height : 0;
+  user-select : none;
+  cursor      : pointer;
+}
 
-      
-      }
+.cocoen *,
+.cocoen *:after,
+.cocoen *:before {
+  box-sizing : inherit;
+}
 
-/*# sourceMappingURL=cocoen.css.map */
+.cocoen img {
+  max-width : none;
+  flex      : 1 0 auto;
+}
+
+.cocoen > img {
+  display    : block;
+  width      : 100%;
+  min-width  : 50%;
+  min-height : 50%;
+  margin     : auto;
+  flex       : 1 0 auto;
+}
+
+.cocoen > div:first-child {
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width    : 50%;
+  height   : 100%;
+  overflow : hidden;
+}
+
+.cocoen__drag {
+  position    : absolute;
+  top         : 0;
+  bottom      : 0;
+  left        : 50%;
+  width       : 2px;
+  margin-left : -1px;
+  background  : #fff;
+  cursor      : ew-resize;
+}
+
+.cocoen__drag:before {
+  content     : "";
+  position    : absolute;
+  top         : 50%;
+  left        : 50%;
+  width       : 14px;
+  height      : 50px;
+  margin-top  : -18px;
+  margin-left : -7px;
+  border      : 3px solid #fff;
+}
+
+/* # sourceMappingURL=cocoen.css.map */
