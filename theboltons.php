@@ -9,6 +9,7 @@
     <title>Private Resident at The Boltons London</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
 	 <!-- jQuery Plugin -->
@@ -43,7 +44,7 @@
               
             </div>
 
-            <div class="styledstrip"><a href="heathrow.php"><h3 class="previous">❮ Previous</h3></a> <a href="privateresidentliverpool.php"> <h3 class="next">Next  ❯</h3></a> </div>
+            <div class="styledstrip"><a href="westfieldlondon.php"><h3 class="previous">❮ </h3></a> <a href="privateresidentliverpool.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
              
   		</section>  		
@@ -62,23 +63,35 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/theboltons01.jpg" alt="">
+		  <a href="img/clients/Large/theboltons01.jpg" data-lightbox="Chandelier at The Boltons">
+		  <img src="img/clients/theboltons01.jpg" alt="Private at the boltons">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theboltons02.jpg" alt="">
+		  <a href="img/clients/Large/theboltons02.jpg" data-lightbox="Chandelier at The Boltons">
+		  <img src="img/clients/theboltons02.jpg" alt="Private at the boltons">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theboltons03.jpg" alt="">
+		  <a href="img/clients/Large/theboltons03.jpg" data-lightbox="Chandelier at The Boltons">
+		  <img src="img/clients/theboltons03.jpg" alt="Private at the boltons">
+		  </a>
 	  </div>
 	
 	   <div class="clientcard">
-	  	<img src="img/clients/theboltons04.jpg" alt="">
+		   <a href="img/clients/Large/theboltons04.jpg" data-lightbox="Chandelier at The Boltons">
+		   <img src="img/clients/theboltons04.jpg" alt="Private at the boltons">
+		   </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theboltons05.jpg" alt="">
+		  <a href="img/clients/Large/theboltons05.jpg" data-lightbox="Chandelier at The Boltons">
+		  <img src="img/clients/theboltons05.jpg" alt="Private at the boltons">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/theboltons06.jpg" alt="">
+		  <a href="img/clients/Large/theboltons06.jpg" data-lightbox="Chandelier at The Boltons">
+		  <img src="img/clients/theboltons06.jpg" alt="Private at the boltons">
+		  </a>
 	  </div>
 	
 	</section>
@@ -90,7 +103,7 @@
 	
 </div>
 </body>
-
+<script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
     
 <script>

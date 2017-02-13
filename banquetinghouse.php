@@ -9,6 +9,7 @@
     <title>Banqueting House - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+     <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
      
 	 <!-- jQuery Plugin -->
@@ -16,6 +17,7 @@
     <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script> 
     <script src="js/flip.min.js"></script>
+    
 
 </head>
 
@@ -45,7 +47,7 @@
               
             </div>
 
-            <div class="styledstrip"><a href="theroyalparks.php"><h3 class="previous">❮ Previous</h3></a> <a href="harrods.php"> <h3 class="next">Next  ❯</h3></a> </div>
+            <div class="styledstrip"><a href="heathrow.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
              
   		</section>
@@ -65,13 +67,19 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/banquet01.jpg" alt="">
+		  <a href="img/clients/Large/banquet01.jpg" data-lightbox="Chandelier at Banquet house">
+		  	<img src="img/clients/banquet01.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/banquet02.jpg" alt="">
+		  <a href="img/clients/Large/banquet02.jpg" data-lightbox="Chandelier at Banquet house">
+		  <img src="img/clients/banquet02.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/banquet03.jpg" alt="">
+		  <a href="img/clients/Large/banquet03.jpg" data-lightbox="Chandelier at Banquet house">
+		  <img src="img/clients/banquet03.jpg" alt="">
+		  </a>
 	  </div>
 		
 	</section>
@@ -83,7 +91,7 @@
 	
 </div>
 </body>
-
+	<script src="js/lightbox.min.js"></script>
     <script src="js/cocoen.js"></script>
 
 <script>

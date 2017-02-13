@@ -6,9 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Harrods Chandelier Cleaning</title>
+    <title>Harrods - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
 	 <!-- jQuery Plugin -->
@@ -47,7 +48,7 @@
               
             </div>
 
-            <div class="styledstrip"><a href="westfieldlondon.php"><h3 class="previous">❮ Previous</h3></a> <a href="privateresident.php"> <h3 class="next">Next  ❯</h3></a> </div>
+            <div class="styledstrip"><a href="heathrow.php"><h3 class="previous">❮ </h3></a> <a href="privateresident.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
              
   		</section>
@@ -68,23 +69,35 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/harrods01.jpg" alt="">
+		  <a href="img/clients/Large/harrods01.jpg" data-lightbox="Chandelier at Harrods">
+		  <img src="img/clients/harrods01.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/harrods02.jpg" alt="">
+		  <a href="img/clients/Large/harrods02.jpg" data-lightbox="Chandelier at Harrods">
+		  <img src="img/clients/harrods02.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/harrods03.jpg" alt="">
+		  <a href="img/clients/Large/harrods03.jpg" data-lightbox="Chandelier at Harrods">
+		  <img src="img/clients/harrods03.jpg" alt="">
+		  </a>
 	  </div>
 	
 	   <div class="clientcard">
-	  	<img src="img/clients/harrods04.jpg" alt="">
+		   <a href="img/clients/Large/harrods04.jpg" data-lightbox="Chandelier at Harrods">
+		   <img src="img/clients/harrods04.jpg" alt="">
+		   </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/harrods05.jpg" alt="">
+		  <a href="img/clients/Large/harrods05.jpg" data-lightbox="Chandelier at Harrods">
+		  <img src="img/clients/harrods05.jpg" alt="">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/harrods06.jpg" alt="">
+		  <a href="img/clients/Large/harrods06.jpg" data-lightbox="Chandelier at Harrods">
+		  <img src="img/clients/harrods06.jpg" alt="">
+		  </a>
 	  </div>
 	
 	</section>
@@ -96,7 +109,7 @@
 	
 </div>
 </body>
-
+		<script src="js/lightbox.min.js"></script>
 <script>
 $(document).ready(function(){  
  	var success = '<?php echo $success; ?>';	

@@ -9,6 +9,7 @@
     <title>Private Resident In Liverpool - Chandelier Load Testing & Free Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
 	 <!-- jQuery Plugin -->
@@ -44,7 +45,7 @@
               <img src="img/clients/privateresidentliverpoolafter.jpg" alt="">
             </div>
 
-			<div class="styledstrip"><a href="theboltons.php"><h3 class="previous">❮ Previous</h3></a> <a href="westfieldlondon.php"> <h3 class="next">Next  ❯</h3></a> </div>
+			<div class="styledstrip"><a href="theboltons.php"><h3 class="previous">❮ </h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
              
@@ -65,13 +66,19 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/privateresidentliverpool01.jpg" alt="">
+		  <a href="img/clients/Large/privateresidentliverpool01.jpg" data-lightbox="Chandelier Cleaning for a private resident">
+		  <img src="img/clients/privateresidentliverpool01.jpg" alt="Chandelier Cleaned">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/privateresidentliverpool02.jpg" alt="">
+		<a href="img/clients/Large/privateresidentliverpool02.jpg" data-lightbox="Chandelier Cleaning for a private resident">
+	  	<img src="img/clients/privateresidentliverpool02.jpg" alt="Chandelier Cleaned">
+		</a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/privateresidentliverpool03.jpg" alt="">
+	  	<a href="img/clients/Large/privateresidentliverpool03.jpg" data-lightbox="Chandelier Cleaning for a private resident">
+	  	<img src="img/clients/privateresidentliverpool03.jpg" alt="Chandelier Cleaned">
+	  	</a>
 	  </div>
 	
 	</section>
@@ -83,7 +90,7 @@
 	
 </div>
 </body>
-
+<script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
 
 <script>

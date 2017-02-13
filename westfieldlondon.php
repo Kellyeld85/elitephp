@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
  <!-- jQuery Plugin -->
@@ -44,7 +45,7 @@
               
             </div>
 
-            <div class="styledstrip"><a href="privateresidentliverpool.php"><h3 class="previous">❮ Previous</h3></a> <a href="theroyalparks.php"> <h3 class="next">Next  ❯</h3></a> </div>
+            <div class="styledstrip"><a href="theroyalparks.php"><h3 class="previous">❮ </h3></a> <a href="theboltons.php"> <h3 class="next">❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
              
   		</section>
@@ -64,23 +65,35 @@
 	<section class="image-container">
 	
 	  <div class="clientcard">
-	  	<img src="img/clients/westfield01.jpg" alt="">
+		  <a href="img/clients/Large/westfield01.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		  <img src="img/clients/westfield01.jpg" alt="Westfields cleaning">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/westfield02.jpg" alt="">
+		  <a href="img/clients/Large/westfield02.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		  <img src="img/clients/westfield02.jpg" alt="Westfields cleaning">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/westfield03.jpg" alt="">
+		  <a href="img/clients/Large/westfield03.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		  <img src="img/clients/westfield03.jpg" alt="Westfields cleaning">
+		  </a>
 	  </div>
 	
 	   <div class="clientcard">
-	  	<img src="img/clients/westfield04.jpg" alt="">
+		   <a href="img/clients/Large/westfield04.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		   <img src="img/clients/westfield04.jpg" alt="Westfields cleaning">
+		   </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/westfield05.jpg" alt="">
+		  <a href="img/clients/Large/westfield05.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		  <img src="img/clients/westfield05.jpg" alt="Westfields cleaning">
+		  </a>
 	  </div>
 	  <div class="clientcard">
-	  	<img src="img/clients/westfield06.jpg" alt="">
+		  <a href="img/clients/Large/westfield06.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
+		  <img src="img/clients/westfield06.jpg" alt="Westfields cleaning">
+		  </a>
 	  </div>
 	
 	</section>
@@ -92,6 +105,7 @@
 	
 </div>
 </body>
+<script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
 
 <script>
