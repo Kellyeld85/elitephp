@@ -281,6 +281,7 @@
 			
 			/* ============  TEMPLATE STYLE: MESSAGE YOU RECEIVED  =========== */
 			$completeMessage .= '<table>';
+			
 	  		foreach ($easyForm->field as $varName => $arrValue) {
 	  			if ($easyForm->field[$varName]['type'] != 'textarea' && $varName != 'captcha' && $varName != 'email' && $varName != 'subject' && $easyForm->field[$varName]['type'] != 'file' && $easyForm->field[$varName]['type'] != 'html')
 	  			{
@@ -315,17 +316,49 @@
 	  			{
 	  				$wrapMessage = wordwrap($easyForm->field[$varName]['value'], 70);
 	  				$contMessage .= '<br/><h2>'.$easyForm->field[$varName]['labelName'].':</h2>'.nl2br($wrapMessage).'<br/>';
+	  			}	  			
+	  		}
+			foreach ($easyForm2->field as $varName => $arrValue) {
+	  			if ($easyForm2->field[$varName]['type'] != 'textarea' && $varName != 'captcha' && $varName != 'email' && $varName != 'subject' && $easyForm2->field[$varName]['type'] != 'file' && $easyForm2->field[$varName]['type'] != 'html')
+	  			{
+	  				if ($easyForm2->field[$varName]['type'] == 'checkbox')
+	  				{
+	  					$checkBoxValues = '';
+	  					if (count($easyForm2->field[$varName]['value']) != 0)
+	  					{
+	  						$totalCheckBoxItems = count($easyForm2->field[$varName]['value']);
+	  						
+	  						for ($x = 0; $x < $totalCheckBoxItems; $x++)
+	  						{
+	  							if ($x == $totalCheckBoxItems - 1) //last index
+	  								$checkBoxValues .= $easyForm2->field[$varName]['value'][$x];
+	  							else
+	  								$checkBoxValues .= $easyForm2->field[$varName]['value'][$x].', ';
+	  							
+	  						}
+	  						
+		  					/*foreach ($easyForm2->field[$varName]['value'] as $value) {
+		  						$checkBoxValues .= $value.' ,';
+		  					}*/
+	  					}
+	  					$completeMessage .= '<tr><td><b>'.$easyForm2->field[$varName]['labelName'].'</b></td><td><span style="margin-left:15px;">'.$checkBoxValues.'</span></td></tr>';
+	  				
+	  				}
+	  				else
+	  					$completeMessage .= '<tr><td><b>'.$easyForm2->field[$varName]['labelName'].'</b></td><td><span style="margin-left:15px;">'.$easyForm2->field[$varName]['value'].'</span></td></tr>';
+			  		
 	  			}
-	  			
-	  			
+	  			if ($easyForm2->field[$varName]['type'] == 'textarea')
+	  			{
+	  				$wrapMessage = wordwrap($easyForm2->field[$varName]['value'], 70);
+	  				$contMessage .= '<br/><h2>'.$easyForm2->field[$varName]['labelName'].':</h2>'.nl2br($wrapMessage).'<br/>';
+	  			}	  			
 	  		}
 	  		$completeMessage .= '</table>';
 	  		$completeMessage .= $contMessage;
 	  		
 	  		/*End of Template*/
-	  		
-			
-	  		
+	  			  		
 			
 			$userEmail = $easyForm->field['email']['value'];
 			

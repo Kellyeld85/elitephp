@@ -3,7 +3,7 @@
 	<div class="footer-leftside-links">
 	
 	<ul class="safeimage">
-		<li><a rel="nofollow" href="http://safecontractor.com/contractor-services/"><img src="img/safecontractor.png" alt="Safecontractor" /></a></li>
+		<li><a rel="nofollow" href="http://safecontractor.com/contractor-services/"><img src="img/Safecontractor.png" alt="Safecontractor" /></a></li>
 	</ul>
 	<ul>
 		<li><a rel="nofollow"  href="http://safecontractor.com/contractor-services/">Safe Contractor Plus</a></li>

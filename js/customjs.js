@@ -19,29 +19,23 @@
 		  e.preventDefault();
 
 		});
+/*main menu slide*/
 
-
-/*modal*/
 
   $("#menubutton").animatedModal();
   $("#menubuttonmodal").animatedModal();
-  $("#contactbuttonmodal").animatedModal();
-
-
-
 
 /*before and after slide*/
-$(document).ready(function(){
-  $('.cocoen').cocoen();
-});
-
-
+	$(document).ready(function(){
+  		$('.cocoen').cocoen();
+	});
 
 
 // javascrip flip modal over
 	$(function(){
 
 		        $(".card").flip({
+								
 		          trigger: 'manual'
 		        });
 
@@ -52,6 +46,11 @@ $(document).ready(function(){
 
 				
 		        $(".close-btn").click(function(){
+					$.ajax({
+						url: 'clear_form.php',
+						success: function (response) {						
+						}
+					});						   
 		          $(".card").flip(false);
 		        });
 
@@ -62,7 +61,9 @@ $(document).ready(function(){
 //preloader
 
 $(window).on('load', function() { // makes sure the whole site is loaded 
+							  
   $('#status').fadeOut(); // will first fade out the loading animation 
   $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
   $('body').delay(350).css({'overflow':'visible'});
+  
 })

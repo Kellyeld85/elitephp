@@ -102,6 +102,7 @@
     },
 
     flip: function(callback) {
+		alert('pp');
       if (this.isFlipped) {
         return;
       }
@@ -122,6 +123,7 @@
     },
 
     unflip: function(callback) {
+		alert('rr');
       if (!this.isFlipped) {
         return;
       }
@@ -232,11 +234,13 @@
     },
 
     clickHandler: function(event) {
+		alert("mm");
       if (!event) { event = window.event; }
       if (this.element.find($(event.target).closest('button, a, input[type="submit"]')).length) {
+		  alert("hh");
         return;
       }
-
+alert("gg");
       if (this.isFlipped) {
         this.unflip();
       } else {
@@ -269,6 +273,7 @@
     },
 
     flipChanged: function(callback) {
+		alert('mm');
       this.element.trigger('flip:change');
       if (typeof callback === 'function') {
         callback.call(this.element);
@@ -276,6 +281,7 @@
     },
 
     changeSettings: function(options, callback) {
+		alert('qq');
       var self = this;
       var changeNeeded = false;
 

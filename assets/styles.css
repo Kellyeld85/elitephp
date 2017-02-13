@@ -1530,7 +1530,6 @@ summary {
   padding: 20px;
   border-left: #fff solid 10px; }
 
-<<<<<<< HEAD
 .services {
   max-width: 100%;
   margin-left: auto;
@@ -1585,7 +1584,7 @@ summary {
   left: 0%;
   transform: translate(0%, 15%);
   padding: 50px; }
-=======
+
 .service {
   max-width: 100%;
   margin-left: auto;
@@ -1595,12 +1594,19 @@ summary {
     content: "";
     display: table; }
   .service .service-section {
-    display: table-cell;
+    float: left;
+    display: block;
+    margin-right: 0%;
     width: 100%; }
+    .service .service-section:last-child {
+      margin-right: 0; }
     .service .service-section .sectionone, .service .service-section .sectionone {
-      display: table-cell;
+      float: left;
+      display: block;
+      margin-right: 0%;
       width: 50%; }
->>>>>>> 59928411cc91bb27b3af7d53109f96c0833ed8f6
+      .service .service-section .sectionone:last-child, .service .service-section .sectionone:last-child {
+        margin-right: 0; }
 
 /* media boxes end */
 @media screen and (max-width: 1680px) {
@@ -1619,14 +1625,15 @@ summary {
       display: block;
       margin-right: 0%;
       width: 100%; }
-<<<<<<< HEAD
       .project .halfheroimagecocoen:last-child {
         margin-right: 0; }
-=======
     .project section {
-      display: table-cell;
+      float: left;
+      display: block;
+      margin-right: 0%;
       width: 100%; }
->>>>>>> 59928411cc91bb27b3af7d53109f96c0833ed8f6
+      .project section:last-child {
+        margin-right: 0; }
     .project .description {
       float: left;
       display: block;

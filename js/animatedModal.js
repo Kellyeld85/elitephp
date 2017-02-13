@@ -32,13 +32,14 @@
             beforeOpen: function() {},
             afterOpen: function() {},
             beforeClose: function() {},
-            afterClose: function() {},
+            afterClose: function() {}
 
 
 
         }, options);
 
         var closeBt = $('.close-'+settings.modalTarget);
+
         //console.log(closeBt)
 
         var href = $(modal).attr('href'),
@@ -48,7 +49,6 @@
             // Default Classes
             id.addClass('animated');
             id.addClass(settings.modalTarget+'-off');
-            
 
         //Init styles
         var initStyles = {

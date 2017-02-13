@@ -1,16 +1,20 @@
-<?php include 'easy_contact/inc/config.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include 'easy_contact/inc/config.php'; ?>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>testing the grid</title>
+    <title>Message Sent - Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+
+	<!-- jQuery Plugin -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <script src="js/customjs.js"></script>
+    <script src="js/flip.min.js"></script>
 
 </head>
 
@@ -62,11 +66,18 @@
     </section>
 
 </body>
-<!-- jQuery Plugin -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
 
-
+<script>
+$(document).ready(function(){  
+ 	var success = '<?php echo $success; ?>';	
+	 if (success == "no") {		
+	 $('.card').flip(true);
+	 	id = $('body').find('#animatedModal'),		
+        idConc = '#'+id.attr('id');
+        id.css({'opacity':'1','z-index':'9999'});
+        id.addClass('zoomIn');
+        id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
+	 } 	
+});
+</script>
 </html>

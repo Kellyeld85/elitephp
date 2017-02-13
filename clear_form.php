@@ -1,0 +1,4 @@
+<?php
+	$success = '';
+    echo "cleared";
+?>
