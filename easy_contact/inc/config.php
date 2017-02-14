@@ -12,7 +12,7 @@
 	/* Put your email here.  Ex: yoursiteemail@domain.com */
 	$yourEmail = 'kelly@kellyswebdesign.co.uk'; 
 	
-	$contactTemplate = 'aqua';
+	$contactTemplate = 'elitecontact';
 	
 	$autoResponder = true;
 	
@@ -77,10 +77,10 @@
 	
 	
 	
-	$easyForm->createTextBox('fullname', 'Full Name', false, 70);
-	$easyForm->createEmail('Email', 70);
+	$easyForm->createTextBox('Name', 'Full Name', 'Name', false, 70 );
+	$easyForm->createEmail('Email', 'Email', 70);
 	
-	$easyForm->createPhone('telephone', 'Tel. Number', true, 20);
+	$easyForm->createPhone('Tel', 'Tel', 'Tel. Number', true, 20);
 	
 	//byte size conversion: 1000 bytes = 1kb, 1000000 bytes = 1mb, 1000000000 = 1gb
 	$easyForm->createFileUpload('imgfile', 'Upload File', false, 1500000, array('png', 'jpg', 'jpeg', 'gif') );

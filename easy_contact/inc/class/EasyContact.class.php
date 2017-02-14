@@ -12,17 +12,17 @@ class EasyContact
 	}
 	
 	
-	public function createTextBox($varName, $labelName, $required, $maxCharacter)
+	public function createTextBox($varName, $labelName, $placeholder, $required, $maxCharacter )
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
-			$this->field[$varName] = array("type" => "text", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "maxCharacter" => $maxCharacter);
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection' || $placeholder != 'placeholder')
+			$this->field[$varName] = array("type" => "text", "value" => "", "labelName" => $labelName, "placeholder" => $placeholder, "required" => $required, "errorMessage" => "", "maxCharacter" => $maxCharacter);
 		
 	}
 	
-	public function createEmail($labelName, $maxCharacter)
+	public function createEmail($labelName, $placeholder, $maxCharacter)
 	{
 		
-		$this->field['email'] = array("type" => "text", "value" => "", "labelName" => $labelName, "required" => true, "errorMessage" => "", "maxCharacter" => $maxCharacter);
+		$this->field['Email'] = array("type" => "text", "value" => "", "labelName" => $labelName,  "placeholder" => $placeholder, "required" => true, "errorMessage" => "", "maxCharacter" => $maxCharacter);
 		//array_push($this->field, $varName => array("type" => "text", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "maxCharacter" => $maxCharacter));
 	
 	}
@@ -38,21 +38,21 @@ class EasyContact
 	
 	public function createTextArea($varName, $labelName, $required, $maxCharacter)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("type" => "textarea", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "maxCharacter" => $maxCharacter);
 		
 	}
 	
 	public function createComboBox($varName, $labelName, $required)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("type" => "combo", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "items" => array());
 		
 	}
 	
 	public function addComboBoxOption($varName, $item)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 		{
 			array_push($this->field[$varName]["items"], $item);
 			
@@ -61,27 +61,27 @@ class EasyContact
 	
 	public function createRadioButton($varName, $labelName, $required)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("type" => "radio", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "items" => array());
 		
 	}
 	
 	public function addRadioButtonOption($varName, $item)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			array_push($this->field[$varName]["items"], $item);
 	}
 	
 	public function createCheckBox($varName, $labelName, $required)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("type" => "checkbox", "value" => array(), "labelName" => $labelName, "required" => $required, "errorMessage" => "", "items" => array());
 		
 	}
 	
 	public function addCheckBoxOption($varName, $item)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			array_push($this->field[$varName]["items"], $item);
 	}
 	
@@ -98,7 +98,7 @@ class EasyContact
 	
 	public function createFileUpload($varName, $labelName, $required, $byteSize, $fileExt)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("type" => "file", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "byteSize" => $byteSize, "fileExt" => $fileExt, "description" => "");
 		
 		$this->hasFileUpload = true;	
@@ -106,14 +106,14 @@ class EasyContact
 	
 	public function showFileUploadDescription($varName, $desc)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName]["description"] = '<div class="fileUploadDesc">'.$desc.'</div>';
 	}
 	
 	
 	public function createPhone($varName, $labelName, $required, $maxCharacter)
 	{
-		if ($varName != 'email' || $varName != 'subject' || $varName != 'locationDetection')
+		if ($varName != 'Email' || $varName != 'subject' || $varName != 'locationDetection')
 			$this->field[$varName] = array("field" => "phone" ,"type" => "text", "value" => "", "labelName" => $labelName, "required" => $required, "errorMessage" => "", "maxCharacter" => $maxCharacter);
 		
 	}
@@ -239,7 +239,7 @@ class EasyContact
 			echo '
 			<div class="field">			
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<input class="res" name="'.$varName.'" type="text" id="'.$varName.'" '.$value.' />
+				<input class="res" placeholder="'.$varName.'" name="'.$varName.'" type="text" id="'.$varName.'" '.$value.' />
 				'.$errorMessage.'		
 			</div>
 			';

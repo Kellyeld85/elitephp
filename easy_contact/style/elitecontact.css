@@ -1,3 +1,129 @@
-
-
-/*# sourceMappingURL=elitecontact.css.map */
+#captchaImg {
+			margin: 3px auto -7px;
+		}
+		
+		#successMessage {
+			border: 1px solid #85C04D;
+			background: url('../img/success_check.png') no-repeat scroll 7px 50%;
+			background-color: #C7FFC7;
+			background-size: 15px 15px;
+			color: black;
+			padding: 4px 30px;
+			font-size: 12px;
+			margin-bottom: 12px;
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+			
+		}
+		.errorText {
+			color: black;
+			font-size: 12px;
+			margin-left: 150px;
+			margin-top: 4px;
+			margin-bottom: 12px;
+			padding: 3px 29px;
+			max-width: 208px;
+			background: url('../img/error.gif') no-repeat scroll 7px 50% / 15px 15px rgba(248, 198, 198, 1);
+			border: 1px solid rgba(233, 132, 132, 1);
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+		}
+		.errorAst {
+			color: red;
+			float: left;
+			position: absolute;
+			margin-left: -11px;
+		}
+		#genCaptcha {
+			margin-top: 10px;
+		}
+		.desc {
+			color:black;
+			line-height: 23px;
+			font-size: 15px;
+			box-shadow: 0px 0px 3px rgba(0, 156, 255, 0.44);
+			padding: 9px;
+		}
+		label {
+			display: none;		}
+			
+			.contactform input {
+		    display: block;
+		    width: 85%;
+		    margin: 1rem;
+		}
+		
+		.contactform textarea {
+		    width: 85%;
+		    display: block;
+		    margin: 1rem;
+		}
+		
+		.contactform button {
+		    width: 94%;
+		    display: block;
+		    margin: 1rem;
+		    background: #222b58;
+		    text-align: center;
+		}
+		
+		.big-input,
+		.big-textarea,
+		.big-select select {
+		    padding: 18px 25px;
+		    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+		    font-size: 14px !important;
+		}
+		
+		.big-input:focus,
+		.big-select:focus {
+		    border: 2px solid rgba(0, 0, 0, 0.5) !important;
+		}
+		
+		.big-label {
+		    font-size: 14px;
+		    letter-spacing: 2px;
+		}
+		
+		.medium-input,
+		.medium-textarea,
+		.medium-select select {
+		    padding: 12px 25px;
+		    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+		    font-size: 14px !important;
+		}
+		
+		.medium-input:focus,
+		.medium-select:focus {
+		    border: 2px solid rgba(0, 0, 0, 0.5) !important;
+		}
+		
+		.small-input,
+		.small-textarea {
+		    padding: 12px 15px;
+		    border: 2px solid rgba(0, 0, 0, 0.1);
+		    font-size: 11px !important;
+		}
+		
+		.small-input:focus,
+		.small-select:focus {
+		    border: 2px solid rgba(0, 0, 0, 0.5);
+		}
+		
+		.small-select select {
+		    padding: 15px 15px;
+		}
+		
+		.medium-input-light,
+		.medium-textarea-light,
+		.medium-select-light select {
+		    padding: 12px 25px;
+		    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+		    font-size: 12px !important;
+		    background: rgba(255, 255, 255, 0.1) !important;
+		}
+		
+		.medium-input-light:focus,
+		.medium-select-light:focus {
+		    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+		}
