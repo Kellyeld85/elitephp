@@ -37,7 +37,7 @@
     <div class="container">
 
 <div class="services">
-<div class="services-area align">
+<div class="services-area align restore">
 <h1>Restore, Repair, Rewire</h1>
 <p>Your chandelier is damaged, broken or dulled and you want to know whether it can be
 restored it to its former glory.</p>
@@ -51,12 +51,12 @@ methods.</p>
 water, humidity or fire, we can provide a test and rewire as necessary. You will be provided
 with a new certificate.</p>
 </div>
-<div class="services-area"> <img src="img/about.png"></div>
+<div class="services-area"> <img class="hidden"  src="img/about.png"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/about.png"></div>
 <div class="services-area">
 <ul>
   <li>☑ Broken and damaged chandeliers</li>

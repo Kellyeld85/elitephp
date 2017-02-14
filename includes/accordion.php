@@ -35,7 +35,7 @@ help.</br> <button><a href="restore-repair.php">Learn more</a></button></p>
       <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
         <p>Load testing is performed to determine the optimum strength of the ceiling material
 against the weight of the hanging object. This is a safety requirement in England and
-could be done easily the help of professionals.<button><a href="load-testing.php">Learn more</a></button></p>
+could be done easily the help of professionals. </br><button><a href="load-testing.php">Learn more</a></button></p>
       </div>
 
       <a href="" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading" rel="tab5">Item 5</a>

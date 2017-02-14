@@ -47,12 +47,12 @@ shape, size, height and location.</p>
 <p> Whether you require a deep clean or a shallow clean, trust that your prized chandelier will
 be handled with care by our team of electricians and technical restorers.</p>
 </div>
-<div class="services-area"> <img src="img/about.png"></div>
+<div class="services-area"> <img class="hidden" src="img/about.png"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/about.png"></div>
 <div class="services-area">
 <ul>
   <li>☑ Removal of dirt and dust deposits</li>

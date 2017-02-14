@@ -1565,6 +1565,8 @@ summary {
   width: 50%; }
   .services-area:last-child {
     margin-right: 0; }
+  .services-area h1 {
+    font-size: 2.5rem; }
   .services-area img {
     padding: 20px; }
   .services-area p {
@@ -1593,7 +1595,7 @@ summary {
   top: 15%;
   left: 0%;
   transform: translate(0%, 15%);
-  padding: 50px; }
+  padding: 30px; }
 
 .service {
   max-width: 100%;
@@ -1708,9 +1710,15 @@ summary {
   margin-left: 20px; }
 
 /* media boxes end */
+/* ------------- Media queries 1700px -------------- */
+@media screen and (max-width: 1700px) {
+  .restore {
+    transform: translate(0%, 5%); } }
+/* ------------- Media queries 1680px -------------- */
 @media screen and (max-width: 1680px) {
   aside {
     padding: 30px 40px; } }
+/* ------------- Media queries 1530px -------------- */
 @media screen and (max-width: 1530px) {
   .project {
     float: left;
@@ -1741,22 +1749,27 @@ summary {
       .project .description:last-child {
         margin-right: 0; }
     .project .image {
-      display: cover; } }
-/* ------------- Media queries 1200px -------------- */
-@media screen and (max-width: 1200px) {
-  .timeline ul li div {
-    width: 300px; }
-  .timeline ul li:nth-child(even) div {
-    left: -350px; }
+      display: cover; }
 
-  /* ------------- Media queries 1258px -------------- */ }
-@media screen and (max-width: 1200px) and (max-width: 1258px) {
+  .restore {
+    transform: translate(0%, 2%); } }
+/* ------------- Media queries 1385px -------------- */
+@media screen and (max-width: 1385px) {
+  .align {
+    padding: 10px; } }
+/* ------------- Media queries 1258px -------------- */
+@media screen and (max-width: 1258px) {
   aside .email {
     font-size: 1.2rem; }
   aside .tel {
     font-size: 1.1rem;
     letter-spacing: 2px; } }
-/* ------------- Ipad pro media queries 1024px - 1366 -------------- */
+/* ------------- Media queries 1200px -------------- */
+@media screen and (max-width: 1200px) {
+  .timeline ul li div {
+    width: 300px; }
+  .timeline ul li:nth-child(even) div {
+    left: -350px; } }
 /* ------------ media queries 1080px ----------------*/
 @media screen and (max-width: 1080px) {
   .hovereffect h2 {
@@ -1840,7 +1853,18 @@ summary {
     position: absolute;
     padding: 10px 20px;
     text-align: center;
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+
+  .align {
+    transform: translate(0%, 9%);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 30px; }
+
+  .restore {
+    transform: translate(0%, 9%);
+    padding: 30px;
+    margin-bottom: 50px; } }
 /* ------------- Media queries 1000px -------------- */
 @media screen and (max-width: 1000px) {
   .line {
@@ -1901,7 +1925,21 @@ summary {
     padding: 10px; }
 
   input {
-    height: 80px; } }
+    height: 80px; }
+
+  .services-area {
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width: 100%; }
+    .services-area:last-child {
+      margin-right: 0; }
+    .services-area ul {
+      margin: 20px;
+      margin-top: 10px; }
+    .services-area .image {
+      width: 100%;
+      padding: 20px; } }
 /* ------------- Media queries 860px -------------- */
 @media screen and (max-width: 860px) {
   .side-image button {

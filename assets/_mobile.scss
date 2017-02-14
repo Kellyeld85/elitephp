@@ -1,6 +1,12 @@
+/* ------------- Media queries 1700px -------------- */
 
+@media screen and (max-width : 1700px) {
 
+.restore {transform: translate(0%, 5%);}
 
+}
+
+/* ------------- Media queries 1680px -------------- */
 
 @media screen and (max-width : 1680px) {
   aside {
@@ -10,6 +16,9 @@
   
 }
 
+/* ------------- Media queries 1530px -------------- */
+
+
 @media screen and (max-width : 1530px) {
    .project {
    @include     span-columns (16 of 16);
@@ -17,22 +26,51 @@
    .halfheroimagecocoen{
 	    @include span-columns (16 of 16);
    }    
+
    section{
 	   @include span-columns (16 of 16);
    }
+
  
    .description {
  	  @include span-columns (16 of 16);
  	}
+
  	.image{display: cover;}
  }
+.restore {transform: translate(0%, 2%);}
 
-// .swap { 
-//   @include display(flex);
-//   @include flex-direction(column-reverse);}
+ }
 
+
+
+/* ------------- Media queries 1385px -------------- */
+@media screen and (max-width : 1385px) {
+		//Service pages
+	 
+		.align {
+		padding: 10px;
+		}
 }
 
+/* ------------- Media queries 1258px -------------- */
+
+@media screen and (max-width : 1258px) {
+
+//navigation
+aside {
+		.email{
+			 font-size: 1.2rem; }
+		.tel {
+			font-size: 1.1rem;
+			letter-spacing: 2px;
+		}
+
+	}
+
+
+	
+}	
 
 /* ------------- Media queries 1200px -------------- */
 
@@ -53,26 +91,10 @@
 }
 
 
-
-/* ------------- Media queries 1258px -------------- */
-
-@media screen and (max-width : 1258px) {
-
-	aside {
-		.email{
-			 font-size: 1.2rem; }
-		.tel {
-			font-size: 1.1rem;
-			letter-spacing: 2px;
-		}
-
-	}
-	
-
-}	
 }
 
-/* ------------- Ipad pro media queries 1024px - 1366 -------------- */
+
+
 
 
 /* ------------ media queries 1080px ----------------*/
@@ -158,6 +180,18 @@
     text-align : center;
     font-size  : 1.3rem;
   }
+  
+  //services page
+  .align {transform: translate(0%, 9%);
+	  margin-top: 25px;
+	  margin-bottom: 50px;
+	  padding: 30px;
+
+  }
+  .restore {transform: translate(0%, 9%);
+	  padding: 30px;
+	  margin-bottom: 50px;
+  }	
 }
 
 
@@ -209,7 +243,7 @@
 	    border-width : 8px 16px 8px 0;
 	  }
   }
-  
+
 }
 
 
@@ -236,6 +270,19 @@
 	input{
 		height: 80px;
 	}
+	
+	//Service page
+	.services-area {
+	@include span-columns(16 of 16);
+		ul{
+			margin: 20px;
+			margin-top: 10px;
+			}
+		.image{
+			width: 100%;
+			padding: 20px;
+			}
+		}
 }
 
 
