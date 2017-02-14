@@ -48,7 +48,7 @@
       <p>If the crystal or glass pieces in your chandelier look cloudy, have spots on them and no
 longer reflect light as they used to, it’s time to get them cleaned.
       </p>
-      <button>more details</button>
+      <a href="cleaning.php"><button>more details</button></a>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ longer reflect light as they used to, it’s time to get them cleaned.
 commercial property, trust that we can securely dismantle and/or fit your chandelier safely
 in its place.
     </p>
-      <button>more details</button>
+      <a href="installation-removal.php"><button>more details</button></a>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ wires are loose, chipped, cracked, twisted, missing or damaged by natural wearin
 environmental forces such as water, humidity or fire, get in touch to find out how we can
 help.
     </p>
-  <button>more details</button>
+  <a href="restore-repair.php"><button>more details</button></a>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ help.
 against the weight of the hanging object. This is a safety requirement in England and
 could be done easily the help of professionals.
       </p>
-        <button>more details</button>
+        <a href="load-testing.php"><button>more details</button></a>
   </div>
 </div>
 
@@ -100,7 +100,7 @@ could be done easily the help of professionals.
 accessible. This system allows the chandelier to be lowered and lifted by a wire rope,
 eliminating the need for using hazardous ladders and expensive scaffolding.
     </p>
-    <button>more details</button>
+    <a href="winch-testing.php"><button>more details</button></a>
   </div>
 </div>
 
@@ -112,7 +112,7 @@ eliminating the need for using hazardous ladders and expensive scaffolding.
 speak to us if you’d like to know more about this service or have specific storage
 requirements.
     </p>
-    <button>more details</button>
+    <a href="secure-storage.php"><button>more details</button></a>
   </div>
 
 </div>
