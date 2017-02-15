@@ -14,10 +14,10 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
 
     <script src="js/flip.min.js"></script>
-  
+
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
               <img src="img/clients/heathrowbefore.jpg" alt="">
@@ -47,11 +47,12 @@
 
             <div class="styledstrip"><a href="banquetinghouse.php"><h3 class="previous">❮ </h3></a><a href="harrods.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-                          
+
   		</section>
-  		
+
   		<div class="description">
 		      	<h1>Heathrow Terminals</h1>
+
 		      <p>Terminals 3 and 5, at Heathrow are first class lounges dedicated to premium travellers. </p>
 			  <p>Our experienced, fully trained staff carefully hand clean all parts and replace any blown bulbs of the Swarovski crystal chandeliers lighting the gold bar in the galleries first lounge, three 					Gallery Club Lounges, wine gallery and the grand chandelier at the front entrance comprising of more than 53,000 individual Austrian crystals, the chandelier was made by a British company based in 				Shropshire.</p>
 			  <h1>Testimonial</h1>
@@ -65,7 +66,7 @@ Please pass on my comment to them all ."</p>
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow01.jpg" data-lightbox="heathrow01">
 		  	<img src="img/clients/heathrow01.jpg" alt="">
@@ -81,7 +82,7 @@ Please pass on my comment to them all ."</p>
 		  	<img src="img/clients/heathrow03.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	   <div class="clientcard">
 		   <a href="img/clients/Large/heathrow04.jpg" data-lightbox="heathrow01">
 		   	  <img src="img/clients/heathrow04.jpg" alt="">
@@ -97,29 +98,29 @@ Please pass on my comment to them all ."</p>
 		  	<img src="img/clients/heathrow06.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 	<script src="js/lightbox.min.js"></script>
      <script src="js/cocoen.js"></script>
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 

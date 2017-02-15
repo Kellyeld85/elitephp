@@ -427,7 +427,7 @@ class EasyContact
 			echo '
 			<div class="field">			
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<input class="res" placeholder="'.$varName.'" name="'.$varName.'" type="file" id="'.$varName.'"  />
+				<input class="res" placeholder="'.$labelName.'" name="'.$varName.'" type="file" id="'.$varName.'"  />
 				'.$holderField['description'].'
 				'.$errorMessage.'		
 			</div>

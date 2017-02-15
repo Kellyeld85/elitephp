@@ -1,5 +1,6 @@
 #captchaImg {
 			margin: 3px auto -7px;
+      display:block;
 		}
 
 		/*#successMessage {
@@ -48,13 +49,14 @@
 
 			.contactform input {
 		    width: 85%;
-		    margin: 1rem;
+		    margin-top: .6rem ;
+
 		}
 
 		.contactform textarea {
 		    width: 85%;
 		    display: block;
-		    margin: 1rem;
+		    margin: 0 0 0 8%;
 		}
 
 		.contactform button {
