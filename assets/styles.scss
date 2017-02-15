@@ -65,7 +65,8 @@ h3 {
 }
 
 	aside {
-		.email{font-size: 1.5rem; }
+
+		.email {font-size: 1.5rem; }
 		.tel {
 			font-size: 1.5rem;
 			letter-spacing: 2px;
@@ -218,12 +219,12 @@ section{
 
  .description {
 	@include span-columns (5 of 16);
-	margin: 20px;
 	padding: 20px;
 	h1{
 		font-size: 2rem;
 		line-height: 1.8rem;
 		padding: 0;
+
 	}
 	p {
 	    font-size : 1.4rem;

@@ -14,10 +14,10 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
 
     <script src="js/flip.min.js"></script>
-  
+
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
               <img src="img/clients/heathrowbefore.jpg" alt="">
@@ -47,15 +47,15 @@
 
             <div class="styledstrip"><a href="banquetinghouse.php"><h3 class="previous">❮ </h3></a><a href="harrods.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-                          
+
   		</section>
-  		
+
   		<div class="description">
 		      	<h1>Heathrow Terminals</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
 			  <h1>Testimonal</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-		      
+
   		</div>
 
 	</div>
@@ -63,7 +63,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow01.jpg" data-lightbox="heathrow01">
 		  	<img src="img/clients/heathrow01.jpg" alt="">
@@ -79,7 +79,7 @@
 		  	<img src="img/clients/heathrow03.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	   <div class="clientcard">
 		   <a href="img/clients/Large/heathrow04.jpg" data-lightbox="heathrow01">
 		   	  <img src="img/clients/heathrow04.jpg" alt="">
@@ -95,29 +95,29 @@
 		  	<img src="img/clients/heathrow06.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 	<script src="js/lightbox.min.js"></script>
      <script src="js/cocoen.js"></script>
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 
