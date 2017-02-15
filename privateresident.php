@@ -54,9 +54,10 @@
   		
   		<div class="description">
 		      	<h1>Private Resident</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>This resident has a beautiful crystal chandelier hanging in their luxury staircase.</p><p> Our professional, fully trained team of technician’s dismantles each part and hand cleans the chandelier yearly. </p>
+			  <h1>Testimonial</h1>
+		      <p>"Thank your staff for a wonderful job and nothing was a problem moving furniture , carpets etc and so polite you have a great team please book me for every 6 months."</p>
+		      
 		      
   		</div>
 

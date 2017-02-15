@@ -53,9 +53,9 @@
   		
   		<div class="description">
 		      	<h1>Private Resident In Liverpool</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>This resident in Liverpool has a beautiful extra large empire style antique chandelier hanging in their luxury staircase; our professional, fully trained team of technician’s load tested the chandelier, dismantled each part and hand cleans the chandelier yearly.</p>
+			  <h1>Testimonial</h1>
+		      <p>"Mary estate manger we have had the chandelier cleaned over the years by different companies as you came Recomened we thought we would give you a try, your staff cleaned arch and every single peice of crystal by hand and it looks out of this world we have never seen colour in the crystals before . Thank you so much an see you in June."</p>
 		      
   		</div>
 

@@ -53,9 +53,10 @@
 
   		<div class="description">
 		      	<h1>Regents Park Mosque</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>The London Central Mosque also known as the Islamic Cultural Centre (ICC) or Regent's Park Mosque designed by Sir Frederick Gibberd, completed in 1978, with a very prominent dome and a minerat.</p>
+		      <p>We brought back the beauty of the buildings enormous central chandelier located in the main prayer hall of the mosque.  Each crystal was hand polished and sparking clean.</p>
+			  <h1>Testimonial</h1>
+		      <p>"Elites under the guidance of Albert has been looking after our chandeliers for over 30 years and we have always found him and his staff professional and totally understandable to our needs as a place of worship "</p>
 
   		</div>
 

@@ -54,12 +54,12 @@
   		
   		<div class="description">
 		      	<h1>Corinthia Hotel</h1>
-		      <p>The Corinthia Hotel is one of the top 5 star hotels in London, they paid over a £100,000 for their Baccarat chandelier.</p>
-
-			  <p>We clean each and ever single cut glass ball by hand removing all the dust and dirt deposits leaving sparkling clean over two nights with four of our fully trained chandelier technicians. </p>
-
-			  <p>We were called in after a company could not complete the task.  This cleaning program takes two days</p>
-			  		      
+		      <p>At the beautiful Corinthia Hotel in London, we clean all chandeliers including wall lamps in situ over two nights with four of our fully trained chandelier technicians.</p>
+		      <p>Their beautiful Full Moon Chandelier is in the centre of their glass domed Lobby Lounge and is the main focal point, each and every single cut glass ball is cleaned by hand removing all the dust and 				dirt deposits; leaving the chandelier sparkling clean and looking beautiful. </p>
+			  	
+			  <h1>Testimonial</h1>
+		      <p>"Thank you for every thing Albert the chandelier's  look beautiful everyone taking what a difference."</p>
+		      		      
   		</div>
 
 	</div>

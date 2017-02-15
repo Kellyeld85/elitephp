@@ -262,7 +262,7 @@ class EasyContact
 			echo '
 			<div class="field">		
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<textarea class="res" name="'.$varName.'"  rows="5" id="'.$varName.'" >'.$value.'</textarea>
+				<textarea class="res" placeholder="'.$varName.'" name="'.$varName.'"  rows="5" id="'.$varName.'" >'.$value.'</textarea>
 				'.$errorMessage.'		
 			</div>
 			';
@@ -427,7 +427,7 @@ class EasyContact
 			echo '
 			<div class="field">			
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<input class="res" name="'.$varName.'" type="file" id="'.$varName.'"  />
+				<input class="res" placeholder="'.$varName.'" name="'.$varName.'" type="file" id="'.$varName.'"  />
 				'.$holderField['description'].'
 				'.$errorMessage.'		
 			</div>

@@ -57,8 +57,8 @@
   		<div class="description">
 		      	<h1>Harrods</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+			  <h1>Testimonial</h1>
+		      <p>"Elite has been looking after all the chandelier cleaning Harrods for over 25 years and in that time we have never had fault with elite and Alberts service thank you again "</p>
 		      
   		</div>
 

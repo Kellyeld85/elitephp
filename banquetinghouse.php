@@ -54,9 +54,9 @@
   		
   		<div class="description">
 			<h1>Banqueting House</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>The wonderful painted ceiling is lit by 4 beautiful brass chandeliers, each chandelier is taken down, carefully dismantled, hand cleaned and polished; restoring them back to their former glory.</p>
+			  <h1>Testimonial</h1>
+		      <p>"Thank you Albert for all your help and the wonderful job of our chandelier , I'm so pleased you talked us into repolishing the brass Flemish chandeliers rather than regilt them what a finish every on comenting on how the look comlpletely different"</p>
 		      
   		</div>
 

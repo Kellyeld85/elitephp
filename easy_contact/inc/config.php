@@ -100,8 +100,8 @@
 	/* =====  They are displayed according to their arrangement here  ===== */
 
 
-	$easyForm2->createTextArea('message', 'Message', true, 5000);
-	$easyForm2->createCaptcha('Enter Captcha Code', 'image');
+		$easyForm2->createTextArea('Message', 'Message', true, 5000);
+	$easyForm2->createCaptcha('Enter Captcha Code', 'Enter Captcha Code', 'image');
 
 
 	/* END OF CREATING FIELDS */

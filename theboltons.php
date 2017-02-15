@@ -50,9 +50,10 @@
   		</section>  		
   		<div class="description">
 		      	<h1>Private Resident at The Boltons London</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>This resident at the Bolton’s in Chelsea has magnificent regal reception rooms, redolent with crystal chandeliers, upon entering.  </p>
+		      <p>This four story house has beautiful chandeliers and wall lamps across all floors each one carefully cleaned, polished and light bulbs replaced brining back their original beauty.
+</p>
+
 		      
   		</div>
 

@@ -52,9 +52,10 @@
   		
   		<div class="description">
 		      	<h1>Westfield - London</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>Westfield has 35 world-class luxury stores at The Village, The beautiful chandeliers hanging from the ceiling add to the beauty and luxury style of the shopping centre.  </p>
+		      <p>Due to the size and height of the chandeliers a bespoke cleaning procedure is put in place, scheduled in at night and a lift boom is used to gain access and clean every part.</p>
+			  <h1>Testimonial</h1>
+		      <p>"Thank you for organising the large task to clean our chandeliers, See you next year."</p>
 		      
   		</div>
 

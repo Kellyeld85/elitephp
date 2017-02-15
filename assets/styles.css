@@ -1054,7 +1054,8 @@ body {
   min-width: 320px;
   font-family: 'berkeleyregular';
   background: #F9F9F9;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
 
 .mobileheader {
   position: fixed;

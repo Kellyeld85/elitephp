@@ -52,9 +52,11 @@
   		
   		<div class="description">
 		      	<h1>Heathrow Terminals</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-			  <h1>Testimonal</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>Terminals 3 and 5, at Heathrow are first class lounges dedicated to premium travellers. </p>
+			  <p>Our experienced, fully trained staff carefully hand clean all parts and replace any blown bulbs of the Swarovski crystal chandeliers lighting the gold bar in the galleries first lounge, three 					Gallery Club Lounges, wine gallery and the grand chandelier at the front entrance comprising of more than 53,000 individual Austrian crystals, the chandelier was made by a British company based in 				Shropshire.</p>
+			  <h1>Testimonial</h1>
+		      <p>"Albert your new dedicated team have completed the task of cleaning every individual peice of the crystals by hand and they look fantastic also all our unique light fixtures .
+Please pass on my comment to them all ."</p>
 		      
   		</div>
 
