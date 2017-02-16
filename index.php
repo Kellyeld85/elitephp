@@ -15,6 +15,7 @@
     <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
+    <script src="js/modernizr.js"></script>
 
     </head>
 

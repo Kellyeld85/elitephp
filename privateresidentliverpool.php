@@ -15,9 +15,9 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
-
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
               <img src="img/clients/privateresidentliverpoolbefore.jpg" alt="">
@@ -48,15 +48,15 @@
 			<div class="styledstrip"><a href="theboltons.php"><h3 class="previous">❮ </h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
-             
+
   		</section>
-  		
+
   		<div class="description">
 		      	<h1>Private Resident In Liverpool</h1>
 		      <p>This resident in Liverpool has a beautiful extra large empire style antique chandelier hanging in their luxury staircase; our professional, fully trained team of technician’s load tested the chandelier, dismantled each part and hand cleans the chandelier yearly.</p>
 			  <h1>Testimonial</h1>
 		      <p>"Mary estate manger we have had the chandelier cleaned over the years by different companies as you came Recomened we thought we would give you a try, your staff cleaned arch and every single peice of crystal by hand and it looks out of this world we have never seen colour in the crystals before . Thank you so much an see you in June."</p>
-		      
+
   		</div>
 
 	</div>
@@ -64,7 +64,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/privateresidentliverpool01.jpg" data-lightbox="Chandelier Cleaning for a private resident">
 		  <img src="img/clients/privateresidentliverpool01.jpg" alt="Chandelier Cleaned">
@@ -80,30 +80,30 @@
 	  	<img src="img/clients/privateresidentliverpool03.jpg" alt="Chandelier Cleaned">
 	  	</a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 <script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
 
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 </html>

@@ -15,8 +15,9 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
+        <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -37,24 +38,24 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section>
             <div class="image">
               <img src="img/clients/theboltonsmain.jpg" alt="">
-              
+
             </div>
 
             <div class="styledstrip"><a href="westfieldlondon.php"><h3 class="previous">❮ </h3></a> <a href="privateresidentliverpool.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
-  		</section>  		
+
+  		</section>
   		<div class="description">
 		      	<h1>Private Resident at The Boltons London</h1>
 		      <p>This resident at the Bolton’s in Chelsea has magnificent regal reception rooms, redolent with crystal chandeliers, upon entering.  </p>
 		      <p>This four story house has beautiful chandeliers and wall lamps across all floors each one carefully cleaned, polished and light bulbs replaced brining back their original beauty.
 </p>
 
-		      
+
   		</div>
 
 	</div>
@@ -62,7 +63,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons01.jpg" data-lightbox="Chandelier at The Boltons">
 		  <img src="img/clients/theboltons01.jpg" alt="Private at the boltons">
@@ -78,7 +79,7 @@
 		  <img src="img/clients/theboltons03.jpg" alt="Private at the boltons">
 		  </a>
 	  </div>
-	
+
 	   <div class="clientcard">
 		   <a href="img/clients/Large/theboltons04.jpg" data-lightbox="Chandelier at The Boltons">
 		   <img src="img/clients/theboltons04.jpg" alt="Private at the boltons">
@@ -94,30 +95,30 @@
 		  <img src="img/clients/theboltons06.jpg" alt="Private at the boltons">
 		  </a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 <script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
-    
+
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 </html>
