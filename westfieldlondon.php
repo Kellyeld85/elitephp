@@ -16,8 +16,9 @@
  <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
+        <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -38,25 +39,25 @@
     <div class="container">
 
       <div class="project">
-	      
+
 	  <section>
             <div class="image">
               <img src="img/clients/westfieldmain.jpg" alt="">
-              
+
             </div>
 
             <div class="styledstrip"><a href="theroyalparks.php"><h3 class="previous">❮ </h3></a> <a href="theboltons.php"> <h3 class="next">❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
+
   		</section>
-  		
+
   		<div class="description">
 		      	<h1>Westfield - London</h1>
 		      <p>Westfield has 35 world-class luxury stores at The Village, The beautiful chandeliers hanging from the ceiling add to the beauty and luxury style of the shopping centre.  </p>
 		      <p>Due to the size and height of the chandeliers a bespoke cleaning procedure is put in place, scheduled in at night and a lift boom is used to gain access and clean every part.</p>
 			  <h1>Testimonial</h1>
 		      <p>"Thank you for organising the large task to clean our chandeliers, See you next year."</p>
-		      
+
   		</div>
 
 	</div>
@@ -64,7 +65,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/westfield01.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
 		  <img src="img/clients/westfield01.jpg" alt="Westfields cleaning">
@@ -80,7 +81,7 @@
 		  <img src="img/clients/westfield03.jpg" alt="Westfields cleaning">
 		  </a>
 	  </div>
-	
+
 	   <div class="clientcard">
 		   <a href="img/clients/Large/westfield04.jpg" data-lightbox="Cleaning the Clandeliers at Westfields">
 		   <img src="img/clients/westfield04.jpg" alt="Westfields cleaning">
@@ -96,30 +97,30 @@
 		  <img src="img/clients/westfield06.jpg" alt="Westfields cleaning">
 		  </a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 <script src="js/lightbox.min.js"></script>
 <script src="js/cocoen.js"></script>
 
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 

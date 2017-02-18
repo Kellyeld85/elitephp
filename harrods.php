@@ -15,10 +15,10 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/cocoen.js"></script>
     <script src="js/flip.min.js"></script>
-    
+        <script src="js/modernizr.js"></script>
 
 </head>
 
@@ -41,25 +41,25 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section>
             <div class="image">
               <img src="img/clients/harrodsmain.jpg" alt="">
-              
+
             </div>
 
             <div class="styledstrip"><a href="heathrow.php"><h3 class="previous">❮ </h3></a> <a href="privateresident.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
+
   		</section>
 
-  		
+
   		<div class="description">
 		      	<h1>Harrods</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
 			  <h1>Testimonial</h1>
 		      <p>"Elite has been looking after all the chandelier cleaning Harrods for over 25 years and in that time we have never had fault with elite and Alberts service thank you again "</p>
-		      
+
   		</div>
 
 	</div>
@@ -67,7 +67,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods01.jpg" data-lightbox="Chandelier at Harrods">
 		  <img src="img/clients/harrods01.jpg" alt="">
@@ -83,7 +83,7 @@
 		  <img src="img/clients/harrods03.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	   <div class="clientcard">
 		   <a href="img/clients/Large/harrods04.jpg" data-lightbox="Chandelier at Harrods">
 		   <img src="img/clients/harrods04.jpg" alt="">
@@ -99,28 +99,28 @@
 		  <img src="img/clients/harrods06.jpg" alt="">
 		  </a>
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 		<script src="js/lightbox.min.js"></script>
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 

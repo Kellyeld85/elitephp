@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-     
+
      <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="js/flip.min.js"></script>
     <script src="js/customjs.js"></script>
-  
+      <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
     <div class="container">
 
         <div class="cards">
-	
+
 	        <div class="card1">
 		        <a href="banquetinghouse.php">
 		          <div class="card-image">
@@ -48,9 +48,9 @@
 		            </div>
 		          </div>
 		        </a>
-		        
+
 	        </div>
-	
+
 		    <div class="card1">
 			    <a href="heathrow.php">
 		          <div class="card-image">
@@ -61,8 +61,8 @@
 		            </div>
 		          </div>
 			    </a>
-	        </div>		
-	
+	        </div>
+
 	        <div class="card1">
 		        <a href="harrods.php">
 		          <div class="card-image">
@@ -77,7 +77,7 @@
       </div>
 
     <div class="cards">
-	    	
+
 	    	<div class="card1">
 				<a href="privateresidentliverpool.php">
 				 <div class="card-image">
@@ -89,8 +89,8 @@
 		          </div>
 				</a>
 	        </div>
-	    
-	    
+
+
 	        <div class="card1">
 		      <a href="corinthiahotel.php">
 		          <div class="card-image">
@@ -102,8 +102,8 @@
 		          </div>
 		      </a>
 	        </div>
-	
-	
+
+
 	        <div class="card1">
 		        <a href="theroyalparks.php">
 		          <div class="card-image">
@@ -118,7 +118,7 @@
       </div>
 
 	      <div class="cards">
-	        
+
 	        <div class="card1">
 		        <a href="westfieldlondon.php">
 		          <div class="card-image">
@@ -130,7 +130,7 @@
 		          </div>
 		        </a>
 	        </div>
-	
+
 	        <div class="card1">
 		        <a href="theboltons.php">
 		          <div class="card-image">
@@ -142,7 +142,7 @@
 		          </div>
 		        </a>
 	        </div>
-	
+
 	        <div class="card1">
 		        <a href="privateresident.php">
 		          <div class="card-image">
@@ -152,7 +152,7 @@
 		            <button>find out more</button>
 		            </div>
 		          </div>
-		        </a>	
+		        </a>
 	      </div>
       </div>
 
@@ -162,18 +162,18 @@
     </div>
 
 </body>
-  
+
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 </html>

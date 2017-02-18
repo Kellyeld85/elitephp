@@ -11,13 +11,13 @@
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
      <link href="assets/lightbox.min.css" rel="stylesheet">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-     
+
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
-    
+        <script src="js/modernizr.js"></script>
 
 </head>
 
@@ -40,24 +40,24 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section>
             <div class="image">
               <img src="img/clients/banquetmain.jpg" alt="">
-              
+
             </div>
 
             <div class="styledstrip"><a href="heathrow.php"> <h3 class="next"> ❯</h3></a> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
+
   		</section>
-  		
+
   		<div class="description">
 			<h1>Banqueting House</h1>
 		      <p>The wonderful painted ceiling is lit by 4 beautiful brass chandeliers, each chandelier is taken down, carefully dismantled, hand cleaned and polished; restoring them back to their former glory.</p>
 			  <h1>Testimonial</h1>
 		      <p>"Thank you Albert for all your help and the wonderful job of our chandelier , I'm so pleased you talked us into repolishing the brass Flemish chandeliers rather than regilt them what a finish every on comenting on how the look comlpletely different"</p>
-		      
+
   		</div>
 
 	</div>
@@ -65,7 +65,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet01.jpg" data-lightbox="Chandelier at Banquet house">
 		  	<img src="img/clients/banquet01.jpg" alt="">
@@ -81,6 +81,7 @@
 		  <img src="img/clients/banquet03.jpg" alt="">
 		  </a>
 	  </div>
+
 	  
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet04.jpg" data-lightbox="Chandelier at Banquet house">
@@ -98,30 +99,29 @@
 		  </a>
 	  </div>
 
-		
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 	<script src="js/lightbox.min.js"></script>
     <script src="js/cocoen.js"></script>
 
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 

@@ -15,7 +15,7 @@
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script>
-
+    <script src="js/modernizr.js"></script>
     <script src="js/flip.min.js"></script>
 
 </head>
@@ -58,7 +58,7 @@
 			  <h1>Testimonial</h1>
 		      <p>"Albert your new dedicated team have completed the task of cleaning every individual peice of the crystals by hand and they look fantastic also all our unique light fixtures .
 Please pass on my comment to them all ."</p>
-		      
+
   		</div>
 
 	</div>

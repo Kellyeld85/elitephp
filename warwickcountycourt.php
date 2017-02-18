@@ -14,10 +14,10 @@
 	 <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script> 
+    <script src="js/customjs.js"></script>
     <script src="js/cocoen.js"></script>
     <script src="js/flip.min.js"></script>
-
+    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="project">
-	      
+
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
               <img src="img/before.jpg" alt="">
@@ -47,15 +47,15 @@
 
             <div class="next"><h1>Next  </h1> </div>
              <!-- <summary>The title of this page lorem</summary> -->
-             
+
   		</section>
-  		
+
   		<div class="description">
 		      	<h1>Name</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
 			  <h1>Testimonal</h1>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
-		      
+
   		</div>
 
 	</div>
@@ -63,7 +63,7 @@
 
 
 	<section class="image-container">
-	
+
 	  <div class="clientcard">
 	  	<img src="img/500x500.jpg" alt="">
 	  </div>
@@ -73,7 +73,7 @@
 	  <div class="clientcard">
 	  	<img src="img/500x500.jpg" alt="">
 	  </div>
-	
+
 	   <div class="clientcard">
 	  	<img src="img/500x500.jpg" alt="">
 	  </div>
@@ -83,29 +83,29 @@
 	  <div class="clientcard">
 	  	<img src="img/500x500.jpg" alt="">
 	  </div>
-	
+
 	</section>
 
    <div class="clearfix"></div>
 
-        
+
 	<?php include('includes/footer.php') ?>
-	
+
 </div>
 </body>
 
 
 <script>
-$(document).ready(function(){  
- 	var success = '<?php echo $success; ?>';	
-	 if (success == "no") {		
+$(document).ready(function(){
+ 	var success = '<?php echo $success; ?>';
+	 if (success == "no") {
 	 $('.card').flip(true);
-	 	id = $('body').find('#animatedModal'),		
+	 	id = $('body').find('#animatedModal'),
         idConc = '#'+id.attr('id');
         id.css({'opacity':'1','z-index':'9999'});
         id.addClass('zoomIn');
         id.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', '');
-	 } 	
+	 }
 });
 </script>
 </html>
