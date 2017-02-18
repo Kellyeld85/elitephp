@@ -48,12 +48,12 @@ professionals.</p>
 <p> A certificate of this test will be given to you on completion and we will advise you on when
 you might need to do another test to guarantee the safety of your chandelier.</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/about.png"></div>
+<div class="services-area"> <img class="hidden" src="img/loadtesting01.jpg" alt="Chandelier Load Testing Service"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/loadtesting02.jpg" alt="Load Testing Chandelier Service"></div>
 <div class="services-area">
 <ul>
   <li>☑ Load safety test performed</li>

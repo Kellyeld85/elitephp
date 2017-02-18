@@ -51,12 +51,12 @@ methods.</p>
 water, humidity or fire, we can provide a test and rewire as necessary. You will be provided
 with a new certificate.</p>
 </div>
-<div class="services-area"> <img class="hidden"  src="img/about.png"></div>
+<div class="services-area"> <img class="hidden"  src="img/restore01.jpg"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/restore02.jpg"></div>
 <div class="services-area">
 <ul>
   <li>☑ Broken and damaged chandeliers</li>

@@ -48,12 +48,12 @@ to its dedicated spot or install it in its new home.</p>
 <p>No matter the size, weight and elevation we can make provisions to ensure that your
 hanging centrepiece is well looked after.</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/about.png"></div>
+<div class="services-area"> <img class="hidden" src="img/install01.jpg" alt="Chandelier Installation Service"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/install02.jpg" alt="Installing Chandelier Service"></div>
 <div class="services-area">
 <ul>
   <li>☑ Load safety testing</li>

@@ -81,6 +81,23 @@
 		  <img src="img/clients/banquet03.jpg" alt="">
 		  </a>
 	  </div>
+	  
+	  <div class="clientcard">
+		  <a href="img/clients/Large/banquet04.jpg" data-lightbox="Chandelier at Banquet house">
+		  	<img src="img/clients/banquet04.jpg" alt="">
+		  </a>
+	  </div>
+	  <div class="clientcard">
+		  <a href="img/clients/Large/banquet05.jpg" data-lightbox="Chandelier at Banquet house">
+		  <img src="img/clients/banquet05.jpg" alt="">
+		  </a>
+	  </div>
+	  <div class="clientcard">
+		  <a href="img/clients/Large/banquet06.jpg" data-lightbox="Chandelier at Banquet house">
+		  <img src="img/clients/banquet06.jpg" alt="">
+		  </a>
+	  </div>
+
 		
 	</section>
 

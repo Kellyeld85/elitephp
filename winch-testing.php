@@ -47,12 +47,12 @@ maintaining and servicing chandeliers.</p>
 <p> We are up-to-date and compliant with the Lifting Operation and Lifting Equipment
 Regulations under the Health and Safety Executive (UK).</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/about.png"></div>
+<div class="services-area"> <img class="hidden" src="img/about.png" alt="Chandelier Winch Service"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/winch02.jpg" alt="Winching System Service"></div>
 <div class="services-area">
 <ul>
   <li>☑ Motorised chandelier lift system provided</li>

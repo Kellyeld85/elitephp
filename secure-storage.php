@@ -46,12 +46,12 @@ Services is fully security cleared.</p>
 <p> If you’d like to know more about this service or have specific storage requirements, do
 give us a call. We’re always happy to help.</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/about.png"></div>
+<div class="services-area"> <img class="hidden" src="img/store01.jpg" alt="Secure Storage Service"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/about.png"></div>
+  <div class="services-area"> <img class="image" src="img/store02.jpg" alt="Chandelier Storage Service"></div>
 <div class="services-area">
 <ul>
   <li>☑ Careful removal and dismantling of the chandelier</li>

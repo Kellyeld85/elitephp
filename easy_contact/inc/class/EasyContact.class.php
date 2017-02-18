@@ -388,11 +388,11 @@ class EasyContact
 			echo '
 			<div class="field">			
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<input id='.$varName.' name='.$varName.' type="text"  value=""/>
+				<input id='.$varName.' placeholder="'.$varName.'" name='.$varName.' type="text"  value=""/>
 				';
 				
 				if($holderField['captchaType']== 'text') 
-					echo '<input id="genCaptcha" name="genCaptcha" value="'.$this->genTextCap().'" disabled size="6"/>'; 
+					echo '<input id="genCaptcha"  name="genCaptcha" value="'.$this->genTextCap().'" disabled size="6"/>'; 
 				else if ($holderField['captchaType'] == 'image') 
 					echo '<img id="captchaImg" src="easy_contact/inc/captcha.php" alt="captchaImg" />';
 				
@@ -427,7 +427,7 @@ class EasyContact
 			echo '
 			<div class="field">			
 				<label for="'.$varName.'">'.$errorAst.$holderField['labelName'].':</label>
-				<input class="res" placeholder="'.$labelName.'" name="'.$varName.'" type="file" id="'.$varName.'"  />
+				<input class="res" placeholder="'.$varName.'" name="'.$varName.'" type="file" id="'.$varName.'"  />
 				'.$holderField['description'].'
 				'.$errorMessage.'		
 			</div>
