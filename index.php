@@ -21,7 +21,7 @@
 
 
 <body>
-
+<?php include_once("analyticstracking.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>

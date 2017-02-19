@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Message Sent - Elite Chandelier Services</title>
+    <title>Page Not Found  - Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
     <script src="js/modernizr.js"></script>
@@ -35,8 +35,9 @@
     <section class="container">
 
         <div class="blankspace">
-           <h1>Message Sent</h1>
-	    <p>Thank you for contacting Elite Chandelier Services, Your message has been sent, We aim to get back to you within the next 24 hours.</p>	                 
+          <h1>Woops!  </h1>
+		  <p>Looks like this page does exist anymore - Please use the links below to navigate to the main site.</h1>
+	                 
         </div>
 		
 		<div class="clearfix"></div>

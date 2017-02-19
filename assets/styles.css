@@ -1064,6 +1064,16 @@ body {
 html {
   min-width: 320px; }
 
+.blankspace {
+  background: #222b58;
+  color: #fff;
+  height: 400px;
+  width: 80%;
+  margin: 5% auto;
+  padding: 50px; }
+  .blankspace p {
+    font-size: 1.5rem; }
+
 /* Preloader */
 #preloader {
   position: fixed;
