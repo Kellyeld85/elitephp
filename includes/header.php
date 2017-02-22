@@ -1,6 +1,4 @@
 
-
- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
  <div id="animatedModal">
  <div class="card">
 

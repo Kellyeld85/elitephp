@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'easy_contact/inc/config.php'; ?>
+
 
 <head>
   <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/styles.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link href="assets/lightbox.min.css" rel="stylesheet">
+    <?php include 'easy_contact/inc/config.php'; ?>
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
      <!-- jQuery Plugin -->

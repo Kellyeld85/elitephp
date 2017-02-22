@@ -1,6 +1,33 @@
  @import "assets";
 
-
+/*
+ * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
+ *
+ * [1] IE9
+ * [2] IE10+
+ */
+/* 1 */
+.ie9{ 
+	img[src$=".svg"] {
+  width: 100%; 
+}
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%; 
+  }
+  .halfheroimagecocoen summary, .halfheroimagelowtitle summary, .wholeheroimagelowtitle summary{
+	  position: absolute;
+	  left: 60%;
+  } 
+  .contactright, .contactleft {width:50%}
+  
+  img {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+}
 /* Globals */
 
 body {
@@ -124,6 +151,7 @@ summary {
   background     : rgba(34, 43, 88, 0.8);
   text-transform : uppercase;
   font-size      : 2.5rem;
+  list-style	 : none;
 }
 
 /* End of half hero image */

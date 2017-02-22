@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'easy_contact/inc/config.php'; ?>
+
 
 <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Services - Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
+   
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <?php include 'easy_contact/inc/config.php'; ?>
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
 
-    <!-- jQuery Plugin -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-    <script src="js/modernizr.js"></script>
+
 </head>
 
 <body>

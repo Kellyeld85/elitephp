@@ -1,8 +1,6 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'easy_contact/inc/config.php'; ?>
+
 
 <head>
   <meta charset="UTF-8">
@@ -10,8 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our History Est.1910 - Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <?php include 'easy_contact/inc/config.php'; ?>
     <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-    <script src="js/modernizr.js"></script>
+
 </head>
 
 <body>

@@ -187,8 +187,17 @@ aside {
     position   : absolute;
     padding    : 10px 20px;
     text-align : center;
-    font-size  : 1.3rem;
+    font-size  : 1.5rem;
   }
+
+//firefox bugs
+html>/**/body .selector, x:-moz-any-link, x:default {
+  
+ summary {
+    margin-top: -50px;
+  }
+  
+}
 
   //services page
   .align {transform: translate(0%, 9%);

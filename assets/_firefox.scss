@@ -1,0 +1,4 @@
+//firefox bugs
+html>/**/body .selector, x:-moz-any-link, x:default {
+  color:lime;
+}

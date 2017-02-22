@@ -48,7 +48,8 @@
 
 .modallogoimg {
 		@include   span-columns (12 of 12);
-		padding  : 0 15rem;
+ 		padding  : 0 15rem;
+ 		display: block;
 		
 }
 

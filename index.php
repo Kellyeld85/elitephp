@@ -1,23 +1,21 @@
-<?php include 'easy_contact/inc/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <!--[if IE]>
+	<link rel="stylesheet" href="assets/iefixes.css">
+	<![endif]-->	
+	<?php include 'easy_contact/inc/config.php'; ?>
 	<?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-<!-- jQuery Plugin -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-    <script src="js/modernizr.js"></script>
+	
 
-    </head>
+</head>
 
 
 <body>
@@ -35,7 +33,7 @@
    </div>
 </header>
 
-	<?php include('includes/header.php') ?>
+	<?php include('includes/header.php') ?> 
 
 
        <div class="container">

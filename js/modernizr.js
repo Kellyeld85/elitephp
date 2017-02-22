@@ -73,7 +73,13 @@
     }
   };
 
-
+.fallback { 
+  display: none;
+  /* Make sure it's the same size as the SVG takes up */
+}
+.no-svg .fallback { 
+  background-image: url(logo.png); 
+}
 
   // Fake some of Object.create so we can force non test results to be non "own" properties.
   var Modernizr = function() {};
