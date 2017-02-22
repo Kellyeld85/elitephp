@@ -1,0 +1,56 @@
+
+
+}
+
+.wholeheroimagelowtitle{
+	position: relative;
+}
+
+	
+.wholeheroimagelowtitle .ie9 {
+		position: absolute;
+		top:45%;
+		left: 50%;
+		margin-left: -200px;
+		text-align: center;
+		display: block;
+}
+
+  aside .ie9 img[src$=".svg"] {
+    width: 100%; 
+  }
+
+/* ------------- Media queries 1600px -------------- */
+@media screen and (max-width : 1600px) {
+		
+		.wholeheroimagelowtitle .ie9 {
+			margin-left: -240px;
+	}
+
+}
+
+/* ------------- Media queries 1366px -------------- */
+@media screen and (max-width : 1366px) {
+		
+	.wholeheroimagelowtitle .ie9 {
+		margin-left: -270px;
+	
+	}
+
+}
+
+/* ------------- Media queries 1090px -------------- */
+@media screen and (max-width : 1090px) {
+		
+	.wholeheroimagelowtitle .ie9 {
+		margin-left: 0px;
+		top: 30%;
+		left: 0px;
+		width: 100%;
+	
+	}
+	.wholeheroimagelowtitle .logomobileimage{
+	    display : inline-block;
+	}
+
+}

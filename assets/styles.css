@@ -1059,17 +1059,10 @@ html > body .selector, x:-moz-any-link, x:default {
  * [2] IE10+
  */
 /* 1 */
-.ie9 img[src$=".svg"] {
-  width: 100%; }
-
 /* 2 */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
     width: 100%; }
-
-  .halfheroimagecocoen summary, .halfheroimagelowtitle summary, .wholeheroimagelowtitle summary {
-    position: absolute;
-    left: 60%; }
 
   .contactright, .contactleft {
     width: 50%; }
@@ -1289,14 +1282,16 @@ summary {
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 2px; }
-  .wholeheroimagelowtitle button {
-    margin: 30px 0 60px 0;
+  .wholeheroimagelowtitle .ie9 button {
+    width: 50%;
+    margin: 30px 25%;
     padding: 30px 40px;
     color: #fff;
     border: #fff solid 3px;
     background: transparent;
     font-size: 1.3rem;
-    cursor: pointer; }
+    cursor: pointer;
+    text-align: center; }
 
 /* End of whole hero image */
 #menubutton {
@@ -1860,9 +1855,11 @@ hr.style17:after {
   .logomobiletext {
     display: none; }
 
-  .logomobileimage {
-    display: block;
-    width: 60%; }
+  .ie9 .logomobileimage {
+    width: 50%;
+    margin: 30px 25%;
+    text-align: center;
+    display: block; }
 
   .container {
     float: left;
@@ -1897,9 +1894,9 @@ hr.style17:after {
     text-align: center;
     font-size: 1.5rem; }
 
-  html > body .selector summary, x:-moz-any-link summary, x:default summary {
-    margin-top: -50px; }
-
+  @-moz-document url-prefix() {
+    summary {
+      margin-top: -50px; } }
   .align {
     transform: translate(0%, 9%);
     margin-top: 25px;

@@ -158,9 +158,11 @@ aside {
     display : none;
   }
 
-  .logomobileimage {
-    display : block;
-    width   : 60%;
+  .ie9 .logomobileimage {
+    width   : 50%;
+    margin: 30px 25%;
+    text-align: center;
+    display: block;
   }
 
   .container {
@@ -191,8 +193,7 @@ aside {
   }
 
 //firefox bugs
-html>/**/body .selector, x:-moz-any-link, x:default {
-  
+@-moz-document url-prefix() {   
  summary {
     margin-top: -50px;
   }

@@ -33,9 +33,9 @@
 								      <li>
 								        <a href="load-testing.php">Load Testing</a>
 								      </li>
-                      <li>
-                       <a href="winch-testing.php">Winch Testing</a>
-                     </li>
+				                      <li>
+				                       <a href="winch-testing.php">Winch Testing</a>
+				                     </li>
 								      <li>
 								        <a href="installation-removal.php">Installation &amp; Removal</a>
 								      </li>
@@ -92,6 +92,7 @@
 <!--start the navigation sidebar-->
 
  <aside>
+	 <div class="ie9">
         <img src="img/elite-logo.svg" alt="elite logo">
         <nav class="navcont">
             <ul class="accordion">
@@ -141,7 +142,7 @@
 		London,
 		W1B 3HH
 		</address>
-
+	 </div>
     </aside>
     <!--End the navigation sidebar-->
     <script src="js/customjs.js"></script>

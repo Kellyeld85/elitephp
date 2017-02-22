@@ -8,12 +8,11 @@
     <title>Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <!--[if IE]>
-	<link rel="stylesheet" href="assets/iefixes.css">
-	<![endif]-->	
 	<?php include 'easy_contact/inc/config.php'; ?>
 	<?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
-	
+	    <!--[if IE]>
+	<link rel="stylesheet" href="assets/iefixes.css">
+	<![endif]-->	
 
 </head>
 
@@ -39,11 +38,13 @@
        <div class="container">
 
         <div class="wholeheroimagelowtitle">
-            <img class="logomobileimage" src="img/logomobile.png" alt="elite logo">
-            <h1 class="logomobiletext">elite chandelier services</h1>
-            <h2>cleaning and servicing chandeliers since 1910</h2>
-
-            <a href="services.php"><button>Explore Our Services</button></a>
+	        <div class="ie9">
+	            <img class="logomobileimage" src="img/logomobile.png" alt="elite logo">
+	            <h1 class="logomobiletext">elite chandelier services</h1>
+	            <h2 >cleaning and servicing chandeliers since 1910</h2>
+	
+	            <a href="services.php"><button>Explore Our Services</button></a>
+	        </div>
     </div>
 
 
