@@ -120,3 +120,4 @@
     }; // End animatedModal.js
 
 }(jQuery));
+

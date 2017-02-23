@@ -869,6 +869,8 @@ time {
   padding: 0 20px 50px 20px; }
 .contactform img {
   max-width: 200px; }
+.contactform .narrow {
+  width: 400px; }
 
 .close-btn:hover {
   cursor: pointer; }
@@ -957,9 +959,6 @@ textarea {
 
 .submitbtn input:hover {
   cursor: pointer; }
-
-html > body .selector, x:-moz-any-link, x:default {
-  color: lime; }
 
 /* Global footer */
 .footer-2 {
@@ -1419,9 +1418,15 @@ summary {
     text-decoration: none; }
   .styledstrip .next {
     text-align: right; }
+    .styledstrip .next img {
+      width: 30px;
+      height: 55px; }
   .styledstrip .previous {
     text-align: left;
     float: left; }
+    .styledstrip .previous img {
+      width: 30px;
+      height: 55px; }
 
 .image-container {
   max-width: 100%;

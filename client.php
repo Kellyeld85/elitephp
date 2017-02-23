@@ -9,9 +9,40 @@
     <title>Our Clients - Elite Chandelier Services</title>
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <?php include 'easy_contact/inc/config.php'; ?>
-    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <script src="js/customjs.js"></script>
+    <script src="js/flip.min.js"></script>
+
+		<?php 
+		
+			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
+					{
+						include 'easy_contactie/inc/config.php'; 				
+					} else {
+						include 'easy_contact/inc/config.php';
+					}
+					
+		?> 
+		<?php 
+		
+			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
+					{
+						echo '<link href="easy_contactie/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> ';					
+					} else {
+						echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; 
+					}
+					
+		?>
+
+		<!--[if IE]>
+	<link rel="stylesheet" href="assets/iefixes.css">
+	<![endif]-->
+	
      <!-- jQuery Plugin -->
     <script src="js/jquery-1.12.3.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
@@ -36,11 +67,11 @@
 
 <?php include('includes/header.php') ?>
 
-    <div class="container">
+    <div class="container ">
 
-        <div class="cards">
+        <div class="cards section group">
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="banquetinghouse.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_banquethouse.jpg" alt="Banquet House">
@@ -53,7 +84,7 @@
 
 	        </div>
 
-		    <div class="card1">
+		    <div class="card1 col span_1_of_3">
 			    <a href="heathrow.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_heathrow.png" alt="Heathrow Terminal">
@@ -65,7 +96,7 @@
 			    </a>
 	        </div>
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="harrods.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_harrods.jpg" alt="Harrods">
@@ -78,9 +109,9 @@
 	      </div>
       </div>
 
-    <div class="cards">
+    <div class="cards section group">
 
-	    	<div class="card1">
+	    	<div class="card1 col span_1_of_3">
 				<a href="privateresidentliverpool.php">
 				 <div class="card-image">
 		            <img src="img/clients/box_bg_privateresidentliverpool.jpg" alt="Private Resident In Liverpool">
@@ -93,7 +124,7 @@
 	        </div>
 
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		      <a href="corinthiahotel.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_corinthia.png" alt="Corinthia Hotel">
@@ -106,7 +137,7 @@
 	        </div>
 
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="theroyalparks.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_regentpark.jpg" alt="Regent Park">
@@ -119,9 +150,9 @@
 	      </div>
       </div>
 
-	      <div class="cards">
+	      <div class="cards section group">
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="westfieldlondon.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_westfield.jpg" alt="Heathrow Terminal">
@@ -133,7 +164,7 @@
 		        </a>
 	        </div>
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="theboltons.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_boltons.png" alt="The Boltons London">
@@ -145,7 +176,7 @@
 		        </a>
 	        </div>
 
-	        <div class="card1">
+	        <div class="card1 col span_1_of_3">
 		        <a href="privateresident.php">
 		          <div class="card-image">
 		            <img src="img/clients/box_bg_privateresident.jpg" alt="Private Resident">

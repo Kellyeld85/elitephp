@@ -89,7 +89,7 @@
 </div>
 </div>
 
-<!--start the navigation sidebar-->
+<!-------------------------------------------- start THE ASIDE BAR  ------- The navigation sidebar  -------------------------------->
 
  <aside>
 	 <div class="ie9">
@@ -112,9 +112,9 @@
 					      <li>
 					        <a href="load-testing.php">Load testing</a>
 					      </li>
-                <li>
-                 <a href="winch-testing.php">Winch Testing</a>
-               </li>
+			                <li>
+			                 <a href="winch-testing.php">Winch Testing</a>
+			               </li>
 					      <li>
 					        <a href="installation-removal.php">Installation &amp; Removal</a>
 					      </li>
@@ -126,8 +126,16 @@
 					      </li>
 					  </ul>
                 </li>
-                <li><a id="menubuttonmodal" href="#animatedModal" class="flip-btn">Contact us</a></li>
-
+                <?php
+					if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
+					{
+						echo '<li><a href="contact.php"><span>Contact us</span></a></li>';
+					
+					} else {
+						echo '<li><a id="menubuttonmodal" href="#animatedModal" class="flip-btn">Contact us</a></li>';
+					}
+					
+					?>
             </ul>
         </nav>
 

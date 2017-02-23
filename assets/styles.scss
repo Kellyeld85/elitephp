@@ -280,8 +280,15 @@ section{
 }
 .styledstrip { background:#222b58; padding:30px;  width: 100%; flex: 1 0 auto; font-size: 0.5rem;
 	a{color: #fff; text-decoration: none; }
-	.next {text-align: right;  }
-	.previous {text-align: left; float: left;}
+	.next {
+		text-align: right; 
+		img{width: 30px; height: 55px;}
+		 }
+	.previous {
+		text-align: left; float: left;
+				img{width: 30px; height: 55px;}
+		 }
+		 
 	}
 
 .image-container{

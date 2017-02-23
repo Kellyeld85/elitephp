@@ -10,10 +10,41 @@
      <link rel="stylesheet" href="assets/styles.css">
      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
      <link href="assets/lightbox.min.css" rel="stylesheet">   
-     <?php include 'easy_contact/inc/config.php'; ?>
+	 <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
-    <?php echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; ?>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <script src="js/customjs.js"></script>
+    <script src="js/flip.min.js"></script>
 
+		<?php 
+		
+			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
+					{
+						include 'easy_contactie/inc/config.php'; 				
+					} else {
+						include 'easy_contact/inc/config.php';
+					}
+					
+		?> 
+		<?php 
+		
+			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
+					{
+						echo '<link href="easy_contactie/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> ';					
+					} else {
+						echo '<link href="easy_contact/style/'.$contactTemplate.'.css" rel="stylesheet" type="text/css" /> '; 
+					}
+					
+		?>
+
+
+
+	 <!--[if IE]>
+	<link rel="stylesheet" href="assets/iefixes.css">
+	<![endif]-->
 
 
 </head>
@@ -46,7 +77,9 @@
 
             </div>
 
-            <div class="styledstrip"><a href="heathrow.php"> <h3 class="next"> ❯</h3></a> </div>
+            <div class="styledstrip">
+	            <a href="heathrow.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a> 
+	         </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
   		</section>

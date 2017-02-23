@@ -6,18 +6,17 @@
 		$GLOBALS['success'] = '';
 	}
 ?>
-	<script src="js/jquery-1.12.3.min.js"></script>
-	<script src="js/jquery-migrate-1.4.1.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-<!--     <script src="js/modernizr-custom.js"></script> -->
+<!--
+-->
+	    
 	<script type='text/javascript'>
 	
     $(window).load(function(){	
         $('#animatedModal').modal('show');		
 	    });
 	</script>
+
+
 <?php
 	if (!isset($_POST["submit"])) {
   
