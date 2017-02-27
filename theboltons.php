@@ -13,8 +13,8 @@
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
+<!-- jQuery Plugin -->
 	<script src="js/jquery-1.12.3.min.js"></script>
-	<script src="js/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
@@ -40,16 +40,14 @@
 					
 		?>
 
+		<!--[if !IE]>
+			<!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+		<!--<![endif]-->
+
 	<!--[if IE]>
 	<link rel="stylesheet" href="assets/iefixes.css">
 	<![endif]-->	
-	
-	 <!-- jQuery Plugin -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-        <script src="js/modernizr.js"></script>
+
 </head>
 
 <body>

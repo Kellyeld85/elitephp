@@ -20,7 +20,7 @@
     width: 100%; 
   }
   
-  	#animatedModal > .card > .front {
+  	#animatedModal > .card > .back {
 		display: none;
 		background: pink;
 	}
@@ -34,14 +34,24 @@
  	
  	/*  contact form */
  	.contactform h1{
-	 	margin-top: 70px;
+	 	margin-top: 80px;
+	 	
  	}
- 	
- 	/* hide model  */
- 	
- 	#animatedModal{
-	 	display: none;
+ 	.contactform {
+	 	width: 70%;
+	 	margin: 10px auto;
  	}
+ 	label {
+	 	min-width: 100px;
+	 	margin-right: 80px;
+	 	margin-left: 0px;
+ 	}
+ 
+ 	
+ 	/* cocoan  */
+ 	.cocoen__drag:before{
+		border: none;
+	}
  	
  	/*  SECTIONS  */
 	.section {

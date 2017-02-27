@@ -84,7 +84,7 @@
 
 	//byte size conversion: 1000 bytes = 1kb, 1000000 bytes = 1mb, 1000000000 = 1gb
 	$easyForm->createFileUpload('imgfile', 'Upload File', false, 1500000, array('png', 'jpg', 'jpeg', 'gif') );
-		$easyForm->showFileUploadDescription('imgfile', 'Accepted Extension: png, jpg, jpeg, gif and up to 1.5mb');
+	$easyForm->showFileUploadDescription('imgfile', 'Accepted Extension: png, jpg, jpeg, gif and up to 1.5mb');
 
 
 
@@ -100,7 +100,7 @@
 	/* =====  They are displayed according to their arrangement here  ===== */
 
 
-		$easyForm2->createTextArea('Message', 'Message', true, 5000);
+	$easyForm2->createTextArea('Message', 'Message', true, 5000);
 	$easyForm2->createCaptcha('Enter Captcha Code', 'image');
 
 
@@ -136,5 +136,5 @@
 		$formEnctype = 'enctype="multipart/form-data"';
 
 	include dirname(__FILE__) . '/autoresponder.php';
-	include dirname(__FILE__) . '../process.php';
+	include dirname(__FILE__) . '/process.php';
 ?>

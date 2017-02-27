@@ -1062,8 +1062,6 @@ textarea {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
     width: 100%; }
-    img[src$=".svg"] label {
-      display: none; }
 
   .ie10 body {
     /*  contact form */

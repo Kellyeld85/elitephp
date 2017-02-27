@@ -2,23 +2,12 @@
 
 	//session_start();
 	$successSent = false;
-	if (!isset($success)) {
-		$GLOBALS['success'] = '';
-	}
-?>
-
-	<script src="js/jquery-1.12.3.min.js"></script>
-	<script src="js/jquery-migrate-1.4.1.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
-<?php
+	
 	if (!isset($_POST["submit"])) {
-  
+    		
 	}
 	else
-	{   	
+	{
 		$hasErrors = false;
 		$hasSubject = false;
 		$subject = $defaultSubject;
@@ -140,6 +129,123 @@
 			}
 		}
 		
+				foreach ($easyForm2->field as $varName => $arrValue) {
+			
+			if ($easyForm2->field[$varName]['type'] == 'checkbox')
+			{	
+				if (isset($_POST[$varName]))
+				$easyForm2->field[$varName]['value'] = $_POST[$varName];
+			
+			}
+			else if ($easyForm2->field[$varName]['type'] == 'file')
+			{
+				if (isset($_FILES[$varName]))
+					$easyForm2->field[$varName]['value'] = $_FILES[$varName];
+			}
+			else if ($easyForm2->field[$varName]['type'] == 'locationDetection')
+			{}
+			else if ($easyForm2->field[$varName]['type'] == 'html')
+			{}
+			else
+			{	//isset(
+				if (isset($_POST[$varName]))
+					$easyForm2->field[$varName]['value'] = trim($_POST[$varName]);
+			}
+			
+			
+			if (isset($easyForm2->field[$varName]['required']))	
+			{
+				if ($easyForm2->field[$varName]['required'] == true)
+				{	
+					//check for empty field
+					if (empty($easyForm2->field[$varName]['value']))
+						$easyForm2->field[$varName]['errorMessage'] = $emptyField;
+						
+					//check for empty file upload
+					if ($easyForm2->field[$varName]['type'] == 'file')
+					{
+						if (empty($easyForm2->field[$varName]['value']['name']))
+							$easyForm2->field[$varName]['errorMessage'] = $emptyField;
+					}
+				}
+			}
+			
+			if ($easyForm2->field[$varName]['type'] == 'text' || $easyForm2->field[$varName]['type'] == 'textarea')
+			{	
+				//Check for max allowed character
+				if (strlen($easyForm2->field[$varName]['value']) > $easyForm2->field[$varName]['maxCharacter'] && $easyForm2->field[$varName]['value'] != '')
+				{	
+					$easyForm2->field[$varName]['errorMessage'] = $maxAllowedCharacter.$easyForm2->field[$varName]['maxCharacter'];
+					
+				}
+			}
+			
+			if ($easyForm2->field[$varName]['type'] == 'file')
+			{
+				if (isset($_FILES[$varName]))
+				{
+					$fileNameArray = explode(".", $_FILES[$varName]['name']);
+					$fileNameExt = "";
+					$totalFileName = Count($fileNameArray);
+					
+					if (isset($fileNameArray[$totalFileName - 1]))
+						$fileNameExt = strtolower($fileNameArray[$totalFileName - 1]);
+				
+					$allowedFileExts = $easyForm2->field[$varName]['fileExt'];
+					
+					if ($easyForm2->field[$varName]['errorMessage'] == '' && !empty($easyForm2->field[$varName]['value']['name']))
+					{
+						if (!in_array($fileNameExt, $allowedFileExts)) {
+							$easyForm2->field[$varName]['errorMessage'] = $fileNameExt .' - ' . $invalidFileExtension;
+						
+						}
+						
+						if($_FILES[$varName]['size'] > $easyForm2->field[$varName]['byteSize'])
+						{
+							$easyForm2->field[$varName]['errorMessage'] = $maxAllowedFileSize .$easyForm2->bytesConverter($easyForm2->field[$varName]['byteSize']);
+						} 
+					}
+				}
+			}
+			
+			
+	
+			if (isset($easyForm2->field[$varName]['field']))
+			{
+				if ($easyForm2->field[$varName]['field'] == 'phone')
+				{		
+					//check for valid email address
+					if (!$easyForm2->isValidPhoneNumber($easyForm2->field[$varName]['value']) && $easyForm2->field[$varName]['value'] != '')
+						$easyForm2->field[$varName]['errorMessage'] = $invalidPhoneNumber;
+					
+				}	
+	  		}
+	  		
+			
+			if ($varName == 'email')
+			{		
+				//check for valid email address
+				if (!$easyForm2->isValidEmail($easyForm2->field['email']['value']) && $easyForm2->field['email']['value'] != '')
+		  			$easyForm2->field['email']['errorMessage'] = $invalidEmail;
+	  		}	
+		  	if ($varName == 'captcha')
+			{	
+				//check for correct captcha code
+				if($_SESSION['code'] != $easyForm2->field['captcha']['value'] && $easyForm2->field['captcha']['value'] != '')
+					$easyForm2->field['captcha']['errorMessage'] = $invalidCaptcha;
+	  		}
+	  		
+	  		if ($varName == 'subject')
+	  			$subject = $easyForm2->field['subject']['value'];
+	  		
+				
+						
+			if (isset($easyForm2->field[$varName]['errorMessage']))	
+			{
+				if ($easyForm2->field[$varName]['errorMessage'] != "")
+					$hasErrors = true;
+			}
+		}
 		
 		$completeMessage = '';
 	  	$contMessage = '';
@@ -190,6 +296,44 @@
 	  			
 	  			
 	  		}
+	  		
+	  		foreach ($easyForm2->field as $varName => $arrValue) {
+	  			if ($easyForm2->field[$varName]['type'] != 'textarea' && $varName != 'captcha' && $varName != 'email' && $varName != 'subject' && $easyForm2->field[$varName]['type'] != 'file' && $easyForm2->field[$varName]['type'] != 'html')
+	  			{
+	  				if ($easyForm2->field[$varName]['type'] == 'checkbox')
+	  				{
+	  					$checkBoxValues = '';
+	  					if (count($easyForm2->field[$varName]['value']) != 0)
+	  					{
+	  						$totalCheckBoxItems = count($easyForm2->field[$varName]['value']);
+	  						
+	  						for ($x = 0; $x < $totalCheckBoxItems; $x++)
+	  						{
+	  							if ($x == $totalCheckBoxItems - 1) //last index
+	  								$checkBoxValues .= $easyForm2->field[$varName]['value'][$x];
+	  							else
+	  								$checkBoxValues .= $easyForm2->field[$varName]['value'][$x].', ';
+	  							
+	  						}
+	  						
+		  					/*foreach ($easyForm2->field[$varName]['value'] as $value) {
+		  						$checkBoxValues .= $value.' ,';
+		  					}*/
+	  					}
+	  					$completeMessage .= '<tr><td><b>'.$easyForm2->field[$varName]['labelName'].'</b></td><td><span style="margin-left:15px;">'.$checkBoxValues.'</span></td></tr>';
+	  				
+	  				}
+	  				else
+	  					$completeMessage .= '<tr><td><b>'.$easyForm2->field[$varName]['labelName'].'</b></td><td><span style="margin-left:15px;">'.$easyForm2->field[$varName]['value'].'</span></td></tr>';
+			  		
+	  			}
+	  			if ($easyForm2->field[$varName]['type'] == 'textarea')
+	  			{
+	  				$wrapMessage = wordwrap($easyForm2->field[$varName]['value'], 70);
+	  				$contMessage .= '<br/><h2>'.$easyForm2->field[$varName]['labelName'].':</h2>'.nl2br($wrapMessage).'<br/>';
+	  			}	  			
+	  		}
+
 	  		$completeMessage .= '</table>';
 	  		$completeMessage .= $contMessage;
 	  		

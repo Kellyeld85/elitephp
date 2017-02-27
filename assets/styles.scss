@@ -18,10 +18,142 @@
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
     width: 100%; 
-  }
+    
+     	label {
+	 	display: none;
+ 	}
+    
+    
+    
+    
+  }  
+    
+    
+    
+//ie 10
+.ie10 body {
+	    
+	.wholeheroimagelowtitle{
+	position: relative;
+	margin: 10px auto;
+	}
+
   
 
-  .contactright, .contactleft {width:50%}
+	.halfheroimagelowtitle,
+	.summary {
+		margin-top: -100px;
+ 	}
+ 	
+ 	
+ 	.services{
+	 	overflow: hidden;
+	 	padding:30px;
+ 	}
+ 	
+
+ 	.width{
+	 	@include span-columns(9 of 12);
+	 	@include shift(+5);
+	 	position:absolute;
+	 	top:-100px;
+ 	}
+ 	
+ 	
+ 	/*  contact form */
+ 	.contactform h1{
+	 	margin-top: 80px;
+	 	
+ 	}
+
+ 	label {
+	 	display: none;
+ 	}
+ 
+ 
+ 	
+ 	/*  SECTIONS  */
+	.section {
+		clear: both;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	/*  COLUMN SETUP  */
+	.col {
+		display: block;
+		float:left;
+		margin: 1% 0 1% 1.6%;
+	}
+	.col:first-child { margin-left: 0; }
+	
+	/*  GROUPING  */
+	.group:before,
+	.group:after { content:""; display:table; }
+	.group:after { clear:both;}
+	.group { zoom:1; /* For IE 6/7 */ }
+	/*  GRID OF THREE  */
+	.span_3_of_3 { width: 100%; }
+	.span_2_of_3 { width: 66.13%; }
+	.span_1_of_3 { width: 32.26%; }
+	
+	/*  GO FULL WIDTH BELOW 480 PIXELS */
+	@media only screen and (max-width: 480px) {
+		.col {  margin: 1% 0 1% 0%; }
+		.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+	}
+ 	
+ 	
+ 	 		.contactright, .contactleft{
+			width: 50%;
+		} 
+  
+ 	
+	/* ------------- Media queries 1600px -------------- */
+@media screen and (max-width : 1600px) {
+		
+
+
+
+
+}
+
+/* ------------- Media queries 1366px -------------- */
+@media screen and (max-width : 1366px) {
+
+		 .inputareas{
+		 	display: block;
+		 }
+
+		 		.contactright, .contactleft{
+			width: 100%;
+		} 
+}
+
+/* ------------- Media queries 1090px -------------- */
+@media screen and (max-width : 1090px) {
+		
+	.wholeheroimagelowtitle .ie9 {
+		margin-left: 0px;
+		top: 30%;
+		left: 0px;
+		width: 100%;
+	
+	}
+	.wholeheroimagelowtitle .logomobileimage{
+	    display : inline-block;
+	}
+
+}
+	
+	
+}
+    
+    
+    
+
+  
+
   
   img {
   max-width: 100%;
@@ -503,10 +635,9 @@ section{
 .services {
   @include outer-container(100%);
     @include row();
-    overflow: hidden;
 }
 
-.blue {background:#222b58;}
+.blue {background:#222b58; margin-top: 20px;}
 
 .services-area {
   @include span-columns(8 of 16);

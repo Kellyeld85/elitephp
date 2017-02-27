@@ -45,7 +45,9 @@
 			padding: 9px;
 		}
 		label {
-			text-align: left;	}
+			text-align: left;
+			display: block;	
+			}
 
 			.contactform input {
 		    width: 85%;

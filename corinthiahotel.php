@@ -8,13 +8,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Corinthia Hotel London - Chandelier Cleaning</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <link href="assets/lightbox.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
+  <!-- jQuery Plugin -->
 	<script src="js/jquery-1.12.3.min.js"></script>
-	<script src="js/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/animatedModal.min.js"></script>
     <script src="js/customjs.js"></script>
     <script src="js/flip.min.js"></script>
@@ -41,17 +41,15 @@
 		?>
 
 
+		<!--[if !IE]>
+			<!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+		<!--<![endif]-->
+
 		<!--[if IE]>
 	<link rel="stylesheet" href="assets/iefixes.css">
 	<![endif]-->
 	
-     <!-- jQuery Plugin -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/cocoen.js"></script>
-    <script src="js/flip.min.js"></script>
-     <script src="js/modernizr.js"></script>
+   
 </head>
 
 <body>
@@ -147,6 +145,7 @@
 </div>
 </body>
 		<script src="js/lightbox.min.js"></script>
+		<script src="js/cocoen.js"></script>
 
     <script>
 $(document).ready(function(){

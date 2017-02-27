@@ -37,6 +37,10 @@
 					}
 					
 		?>
+		
+				<!--[if !IE]>
+			<!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+		<!--<![endif]-->
 
    	<!--[if IE]>
 	<link rel="stylesheet" href="assets/iefixes.css">
