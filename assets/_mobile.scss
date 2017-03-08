@@ -57,9 +57,7 @@
 @media screen and (max-width : 1385px) {
 		//Service pages
 
-		.align {
-		padding: 10px;
-		}
+	
 }
 
 /* ------------- Media queries 1258px -------------- */
@@ -109,6 +107,8 @@ aside {
 /* ------------ media queries 1080px ----------------*/
 
 @media screen and (max-width : 1080px) {
+	
+	
   .hovereffect h2 {
     position  : absolute;
     margin    : 0;
@@ -136,6 +136,15 @@ aside {
     }
 
     button {margin-top: 0; padding:15px 10px;}
+    	.wholeheroimagelowtitle, .halfheroimagelowtitle{
+display: block;
+	}
+
+  .halfheroimagelowtitle > .summary{
+	  font-size: 2rem;
+	  position: absolute;
+	  margin-top: -500px;
+  }
   }
 
  .mobilemenubutton{
@@ -151,7 +160,7 @@ aside {
     padding         : 5px 20px;
     color           : #222b58;
     text-decoration : none;
-    font-size       : 3rem;
+    font-size       : 2rem;
   }
 
   .logomobiletext {
@@ -200,17 +209,7 @@ aside {
   
 }
 
-  //services page
-  .align {transform: translate(0%, 9%);
-	  margin-top: 25px;
-	  margin-bottom: 50px;
-	  padding: 30px;
 
-  }
-  .restore {transform: translate(0%, 9%);
-	  padding: 30px;
-	  margin-bottom: 50px;
-  }
 }
 
 
@@ -268,32 +267,36 @@ aside {
 
 /* ------------- Media queries 910px -------------- */
 @media screen and (max-width : 910px) {
-	.getintough{
-		@include   span-columns(12 of 12);
-		margin: 0px;
-		padding: 0px;
-	}
-	.hidden {
-		display: none;
-	}
-	hr.style17 {
-		margin-bottom: 45px;
-	}
+	
 
-	.inputareas{
-		display: block;
-	}
-	textarea{
-		padding : 10px;
-	}
-	input{
-		height: 80px;
-	}
+	
+	.services{
+		 	@include outer-container(100%);
+		    @include row();
+		    @include   display(flex);
+		    @include 	 flex-direction(column-reverse);
+			}
+	
 
 	//Service page
 	.services-area {
-	@include span-columns(16 of 16);
-		ul{
+		@include span-columns(16 of 16);
+	
+		.flexswap{
+			@include span-columns(16 of 16);
+   		}
+	   &.align{
+		   @include span-columns (16 of 16);
+		   margin-top: 0px;
+		   	   }
+	   img{
+		   width: 100%;
+		   padding: 0px;
+		   display: block;
+		   
+	   }
+	   
+	   	ul{
 			margin: 20px;
 			margin-top: 10px;
 			}
@@ -301,7 +304,9 @@ aside {
 			width: 100%;
 			padding: 20px;
 			}
-		}
+   }
+   
+ 
 }
 
 
@@ -365,7 +370,6 @@ aside {
 
 	.modalnav {
 		address {
-			font-size: 1.2rem;
 			padding-bottom: 20px;
 		}
 	}
@@ -395,21 +399,6 @@ aside {
         .submitbtn button { width:100%; margin-top: 10px;}
     }
 
-// form end
-
-
-	.modallogoimg{
-		@include span-columns (12 of 12);
-		min-width: 320px;
-		padding: 0 5rem;
-		}
-
-	.modalnav{
-		@include span-columns (12 of 12);
-		padding: 0 5rem;
-		font-size: 2rem;
-
-	}
 
 
 
@@ -418,35 +407,40 @@ aside {
     clear   : both;
 
     button {
-      width : 100%;
+      width : 90%;
     }
   }
-  // form end
+ 
 
-  .modallogoimg {
-    @include    span-columns (12 of 12);
-    min-width : 320px;
-    padding   : 0 5rem;
-  }
+  
+  .contactform{
+	  
+	.mainformleft{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+	}	
+	.mainformright{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+		
+	}
+	.gitcontact{
+	display: block;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
 
-  .modalnav {
-    @include    span-columns (12 of 12);
-    padding   : 0 5rem;
-    font-size : 2rem;
-  }
+	.gone{
+		display: none;
+	}
+}
+ // form end
 
 }
 
-.modallogoimg {
-  @include    span-columns (12 of 12);
-  min-width : 320px;
-  padding   : 0 5rem;
-}
-
-.modalnav {
-  @include   span-columns (12 of 12);
-  padding  : 0 5rem;
-}
 
 
 
@@ -457,7 +451,6 @@ aside {
 
 	.modalnav {
 		address {
-			font-size: 1.2rem;
 			padding-bottom: 20px;
 		}
 	}
@@ -509,10 +502,7 @@ aside {
 	  @include span-columns(12 of 12);
 	  }
 
-    .email,
-    .tel {
-     font-size       : 1.0em;
-      }
+
   // services page
 
   .side-image .side-image-content h1{
@@ -529,29 +519,24 @@ aside {
 		width : calc(100vw - 130px);
 		}
 	}
+	
+	//contact form
+	.contactform{
+		width: 350px;
+		margin-left: -5px;
+	}
+	
 
+
+	
 }
 
 
 /* ------------- Ipad media queries 380px -------------- */
 
 @media (max-width: 380px) {
-  .modalnav {
-    .email,
-    .tel {
-      font-size : 1.2rem;
-    }
-
-    address {
-      font-size : 1.1rem;
-    }
-  }
-
-  .contactform {
-    h1 {
-      font-size : 2.0rem;
-    }
-  	}
+  
+ 
 
 
   	//About Page
@@ -577,13 +562,34 @@ aside {
 		border-right: solid white 10px;
 		border-left: solid white 10px;
 	}
+	
+		//mobile navbar
+	.wrap{
+	.modallogoimg, .modalnav{
+		margin-left: -5%;
+		}
 
+		.email{font-size: 0.75rem;}
+		.tel {
+				
+				font-size     : 1rem;
+		}
+
+	}
+			.close-btn, .close-btnfront{
+			margin-right: 20%;
+		}
+		//contact form
+	.contactform{
+		width: 300px;
+		margin-left: -5px;
+	}
 
 
 }
 /* ------------- Ipad media queries 320px -------------- */
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
 
 	.timeline{
 		ul li div {
@@ -593,6 +599,15 @@ aside {
 			font-size: 1.2rem;
 		}
 	}
+	
+.wrap{
+	.modallogoimg, .modalnav{
+		margin-left: -10%;
+		}
+	}
+	
+	
+
 
 }
 

@@ -3,22 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heathrow VIP Lounges - Chandelier Cleaning</title>
-    <link rel="stylesheet" href="assets/styles.css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <link href="assets/lightbox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	
-	<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $heathrowpage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -48,15 +34,15 @@
 	<link rel="stylesheet" href="assets/iefixes.css">
 	<![endif]-->
  
-
 </head>
 
 <body>
-	<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
 </div>
+
   <header class="mobileheader">
 
   <!--Call your modal-->
@@ -73,13 +59,13 @@
 
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
-              <img src="img/clients/heathrowbefore.jpg" alt="">
-              <img src="img/clients/heathrowafter.jpg" alt="">
+              <img src="img/clients/heathrowbefore.jpg" alt="Before image cleaning chandelier at terminal 5">
+              <img src="img/clients/heathrowafter.jpg" alt="After image cleaning chandelier at terminal 5">
             </div>
 
             <div class="styledstrip">
-	            <a href="banquetinghouse.php"><h3 class="previous"><img src="img/left-arrow.png"> </h3></a>
-	            <a href="harrods.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a> 
+	            <a href="banquetinghouse.php"><h3 class="previous"><img src="img/left-arrow.png" alt="Previous Client Banqueting House"> </h3></a>
+	            <a href="harrods.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next Client Harrods"></h3></a> 
 	        </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
@@ -104,33 +90,33 @@ Please pass on my comment to them all ."</p>
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow01.jpg" data-lightbox="heathrow01">
-		  	<img src="img/clients/heathrow01.jpg" alt="">
+		  	<img src="img/clients/heathrow01.jpg" alt="cleaned chandelier on terminal 5 Heathrow London">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow02.jpg" data-lightbox="heathrow01">
-		  	<img src="img/clients/heathrow02.jpg" alt="">
+		  	<img src="img/clients/heathrow02.jpg" alt="cleaning chandelier on terminal 5 VIP Lounges at Heathrow">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow03.jpg" data-lightbox="heathrow01">
-		  	<img src="img/clients/heathrow03.jpg" alt="">
+		  	<img src="img/clients/heathrow03.jpg" alt="cleaning chandelier on terminal 5 VIP Lounges at Heathrow">
 		  </a>
 	  </div>
 
 	   <div class="clientcard">
 		   <a href="img/clients/Large/heathrow04.jpg" data-lightbox="heathrow01">
-		   	  <img src="img/clients/heathrow04.jpg" alt="">
+		   	  <img src="img/clients/heathrow04.jpg" alt="cleaning chandelier on terminal 3 VIP Lounges at Heathrow">
 		   </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow05.jpg" data-lightbox="heathrow01">
-		  	<img src="img/clients/heathrow05.jpg" alt="">
+		  	<img src="img/clients/heathrow05.jpg" alt="After cleaning chandelier at the first Lounge at Heathrow London">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/heathrow06.jpg" data-lightbox="heathrow01">
-		  	<img src="img/clients/heathrow06.jpg" alt="">
+		  	<img src="img/clients/heathrow06.jpg" alt="cleaning chandelier at the first Lounge at Heathrow close up">
 		  </a>
 	  </div>
 

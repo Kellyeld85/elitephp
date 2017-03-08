@@ -10,7 +10,7 @@
 	/* ======  SETTINGS FOR CONTACT FORM ===== */
 
 	/* Put your email here.  Ex: yoursiteemail@domain.com */
-	$yourEmail = 'kelly@kellyswebdesign.co.uk';
+	$yourEmail = 'info@elitechandelier.com';
 
 	$contactTemplate = 'elitecontact';
 

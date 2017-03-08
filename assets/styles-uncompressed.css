@@ -637,7 +637,7 @@ figure.effect-layla:hover img {
   margin-top: 30px; }
 
 .js-accordion-trigger .mobile-swap {
-  margin: -20px 0 0 -50px;
+  margin: -15px 0 0 -50px;
   float: right;
   font-family: sans-serif;
   margin-right: 5px; }
@@ -714,7 +714,7 @@ figure.effect-layla:hover img {
   color: #222b58;
   text-align: right;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 3rem; }
+  font-size: 1.5rem; }
 
 .close-btnfront:hover {
   color: #4a589e;
@@ -736,7 +736,7 @@ figure.effect-layla:hover img {
   margin-right: 0%;
   width: 100%;
   padding: 0 15rem;
-  font-size: 2rem; }
+  font-size: 1.2rem; }
   .modalnav:last-child {
     margin-right: 0; }
 
@@ -1051,6 +1051,17 @@ textarea {
         .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
           opacity: 1; }
 
+@-moz-document url-prefix() {
+  .wholeheroimagelowtitle, .halfheroimagelowtitle {
+    display: block; }
+
+  .summary {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: -110px; } }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .summary {
+    margin-top: -110px; } }
 /*
  * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
  *
@@ -1062,6 +1073,8 @@ textarea {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   img[src$=".svg"] {
     width: 100%; }
+    img[src$=".svg"] label {
+      display: none; }
 
   .ie10 body {
     /*  contact form */
@@ -1073,12 +1086,20 @@ textarea {
     /* ------------- Media queries 1600px -------------- */
     /* ------------- Media queries 1366px -------------- */
     /* ------------- Media queries 1090px -------------- */ }
-    .ie10 body .wholeheroimagelowtitle {
-      position: relative;
-      margin: 10px auto; }
-    .ie10 body .halfheroimagelowtitle,
+    .ie10 body .wholeheroimagelowtitle .ie9 {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      margin-left: -200px;
+      text-align: center;
+      display: block; }
+    .ie10 body .halfheroimagelowtitle {
+      display: block; }
     .ie10 body .summary {
-      margin-top: -100px; }
+      font-size: 2rem;
+      position: absolute;
+      margin-top: -100px;
+      margin-left: 0px; }
     .ie10 body .services {
       overflow: hidden;
       padding: 30px; }
@@ -1144,16 +1165,24 @@ textarea {
       display: inline-block; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img {
+  .ie11fix {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 125px; }
+
+  #method1 b {
+    display: none; }
+
+  .shrink {
     max-width: 100%;
     flex-shrink: 0; } }
-/* Globals */
+/*--------------------- Globals ----------------------*/
 body {
   min-width: 320px;
   font-family: 'berkeleyregular';
   background: #F9F9F9;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; }
+  overflow-x: hidden; }
 
 .mobileheader {
   position: fixed;
@@ -1200,6 +1229,61 @@ html {
   margin: -200px 0 0 -200px;
   /* is width and height divided by two */ }
 
+.privacy {
+  padding: 30px;
+  margin: 10px; }
+
+.wrap {
+  width: 400px;
+  text-align: left;
+  padding: 0px;
+  margin: 0px; }
+
+.modallogoimg {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  width: 400px;
+  padding: 0 5rem; }
+  .modallogoimg:last-child {
+    margin-right: 0; }
+
+.modalnav {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  padding: 0 5rem;
+  font-size: 1.2rem; }
+  .modalnav:last-child {
+    margin-right: 0; }
+
+.getintough {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+  .getintough:last-child {
+    margin-right: 0; }
+
+.hidden {
+  display: none; }
+
+hr.style17 {
+  margin-bottom: 45px; }
+
+.inputareas {
+  display: block; }
+
+textarea {
+  padding: 10px; }
+
+input {
+  height: 80px; }
+
 aside {
   background: #fff; }
 
@@ -1229,6 +1313,9 @@ aside .tel {
     margin-right: 0; }
 
 /* End global container */
+label {
+  display: none; }
+
 /* End All Globals */
 /* Half hero image */
 .halfheroimagelowtitle {
@@ -1657,11 +1744,17 @@ summary {
   padding: 20px;
   border-left: #fff solid 10px; }
 
+.mtext {
+  font-size: 1.5rem;
+  padding-right: 10px;
+  text-align: center; }
+
 .services {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: block;
+  overflow: hidden; }
   .services::after {
     clear: both;
     content: "";
@@ -1800,6 +1893,7 @@ summary {
       color: #333;
       line-height: 1.5em;
       margin-left: 30px;
+      margin-right: 30px;
       font-size: 1.5em; }
     @media screen and (min-width: 40em) {
       .vertical-tabs-container .vertical-tab-content {
@@ -1921,6 +2015,12 @@ hr.style17:after {
     .wholeheroimagelowtitle button {
       margin-top: 0;
       padding: 15px 10px; }
+    .wholeheroimagelowtitle .wholeheroimagelowtitle, .wholeheroimagelowtitle .halfheroimagelowtitle {
+      display: block; }
+    .wholeheroimagelowtitle .halfheroimagelowtitle > .summary {
+      font-size: 2rem;
+      position: absolute;
+      margin-top: -500px; }
 
   .mobilemenubutton {
     position: fixed;
@@ -1933,7 +2033,7 @@ hr.style17:after {
     padding: 5px 20px;
     color: #222b58;
     text-decoration: none;
-    font-size: 3rem; }
+    font-size: 2rem; }
 
   .logomobiletext {
     display: none; }
@@ -2119,7 +2219,6 @@ hr.style17:after {
     margin-top: 20px; }
 
   .modalnav address {
-    font-size: 1.2rem;
     padding-bottom: 20px; }
 
   .form-left input, .form-right input, textarea {
@@ -2140,74 +2239,14 @@ hr.style17:after {
       width: 100%;
       margin-top: 10px; }
 
-  .modallogoimg {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 100%;
-    min-width: 320px;
-    padding: 0 5rem; }
-    .modallogoimg:last-child {
-      margin-right: 0; }
-
-  .modalnav {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 100%;
-    padding: 0 5rem;
-    font-size: 2rem; }
-    .modalnav:last-child {
-      margin-right: 0; }
-
   .sub-upload {
     display: block;
     clear: both; }
     .sub-upload button {
-      width: 100%; }
-
-  .modallogoimg {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 100%;
-    min-width: 320px;
-    padding: 0 5rem; }
-    .modallogoimg:last-child {
-      margin-right: 0; }
-
-  .modalnav {
-    float: left;
-    display: block;
-    margin-right: 0%;
-    width: 100%;
-    padding: 0 5rem;
-    font-size: 2rem; }
-    .modalnav:last-child {
-      margin-right: 0; } }
-.modallogoimg {
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 100%;
-  min-width: 320px;
-  padding: 0 5rem; }
-  .modallogoimg:last-child {
-    margin-right: 0; }
-
-.modalnav {
-  float: left;
-  display: block;
-  margin-right: 0%;
-  width: 100%;
-  padding: 0 5rem; }
-  .modalnav:last-child {
-    margin-right: 0; }
-
+      width: 100%; } }
 /* ------------- Ipad media queries 768px -------------- */
 @media screen and (max-width: 768px) {
   .modalnav address {
-    font-size: 1.2rem;
     padding-bottom: 20px; }
 
   .margin-top {
@@ -2251,10 +2290,6 @@ hr.style17:after {
     .image-container .clientcard:last-child {
       margin-right: 0; }
 
-  .email,
-  .tel {
-    font-size: 1.0em; }
-
   .side-image .side-image-content h1 {
     font-size: 2rem; } }
 /* ------------- Ipad media queries 400px -------------- */
@@ -2263,12 +2298,6 @@ hr.style17:after {
     width: calc(100vw - 130px); } }
 /* ------------- Ipad media queries 380px -------------- */
 @media (max-width: 380px) {
-  .modalnav .email,
-  .modalnav .tel {
-    font-size: 1.2rem; }
-  .modalnav address {
-    font-size: 1.1rem; }
-
   .contactform h1 {
     font-size: 2.0rem; }
 
@@ -2285,13 +2314,28 @@ hr.style17:after {
 
   .side-image img {
     border-right: solid white 10px;
-    border-left: solid white 10px; } }
+    border-left: solid white 10px; }
+
+  .wrap .modallogoimg, .wrap .modalnav {
+    margin-left: -5%; }
+  .wrap .email {
+    font-size: 0.75rem; }
+  .wrap .tel {
+    font-size: 1rem; }
+  .wrap .close-btn, .wrap .close-btnfront {
+    margin-right: 10%; } }
 /* ------------- Ipad media queries 320px -------------- */
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .timeline ul li div {
     width: calc(100vw - 110px); }
   .timeline h2 {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+
+  .wrap .modallogoimg, .wrap .modalnav {
+    margin-left: -10%; }
+
+  .contactform {
+    width: 400px; } }
 @media only screen and (max-device-width: 1080px) and (orientation: landscape) {
   .wholeheroimagelowtitle {
     background: url("../img/backgroundmobilelandscape.png");
@@ -2315,7 +2359,7 @@ hr.style17:after {
     position: relative;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 4rem; }
+    font-size: 2rem; }
 
   .logomobiletext {
     display: none; }

@@ -3,21 +3,7 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Private Resident - Chandelier Cleaning</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <link href="assets/lightbox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
+  <?php $privateresidentpage = 1; include ('includes/meta.php') ?>
 
 		<?php 
 		
@@ -53,7 +39,7 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -74,13 +60,14 @@
 
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
-              <img src="img/clients/privateresbefore.jpg" alt="">
-              <img src="img/clients/privateresafter.jpg" alt="">
+              <img src="img/clients/privateresbefore.jpg" alt="Before cleaning of chandelier">
+              <img src="img/clients/privateresafter.jpg" alt="Chandelier beautifully cleaned">
             </div>
 
 			<div class="styledstrip">
-				<a href="harrods.php"><h3 class="previous"><img src="img/left-arrow.png"></h3></a> 
-				<a href="banquetinghouse.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a></div>
+				<a href="theboltons.php"><h3 class="previous"><img src="img/left-arrow.png" alt="Previous client at the Boltons"></h3></a> 
+				<a href="banquetinghouse.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next client Banqueting House"></h3></a>
+			</div>
              <!-- <summary>The title of this page lorem</summary> -->
 
 
@@ -103,17 +90,17 @@
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/privateresident01.jpg" data-lightbox="Chandelier at a private residents house">
-		  <img src="img/clients/privateresident01.jpg" alt="">
+		  <img src="img/clients/privateresident01.jpg" alt="Each arm hand cleaned">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/privateresident02.jpg" data-lightbox="Chandelier at a private residents house">
-		  <img src="img/clients/privateresident02.jpg" alt="">
+		  <img src="img/clients/privateresident02.jpg" alt="Before cleaning of chandelier arm">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/privateresident03.jpg" data-lightbox="Chandelier at a private residents house">
-		  <img src="img/clients/privateresident03.jpg" alt="">
+		  <img src="img/clients/privateresident03.jpg" alt="After cleaning of chandelier arm">
 		  </a>
 	  </div>
 

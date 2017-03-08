@@ -3,22 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Regents Park Mosque - London</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-	<link href="assets/lightbox.min.css" rel="stylesheet">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $theroyalparkspage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -52,7 +38,7 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -73,13 +59,13 @@
 
 	  <section>
             <div class="image">
-              <img src="img/clients/theroyalparksmain.jpg" alt="">
+              <img src="img/clients/theroyalparksmain.jpg" alt="Each piece of crystal cleaned">
 
             </div>
 
             <div class="styledstrip">
-	            <a href="corinthiahotel.php"><h3 class="previous"><img src="img/left-arrow.png"></h3></a> 
-	            <a href="westfieldlondon.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a> 
+	            <a href="corinthiahotel.php"><h3 class="previous"><img src="img/left-arrow.png" alt="Previous client Corinthia Hotel"></h3></a> 
+	            <a href="westfieldlondon.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next client Westfield Shopping Center London"></h3></a> 
 	        </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
@@ -102,17 +88,17 @@
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theroyalparks01.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
-		  <img src="img/clients/theroyalparks01.jpg" alt="">
+		  <img src="img/clients/theroyalparks01.jpg" alt="Cleaning of chandelier at The London Central Mosque">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theroyalparks02.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
-		  <img src="img/clients/theroyalparks02.jpg" alt="">
+		  <img src="img/clients/theroyalparks02.jpg" alt="One of the biggest chandeliers Regents Park London">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theroyalparks03.jpg" data-lightbox="Chandelier at a Regents Park Mosque">
-		  <img src="img/clients/theroyalparks03.jpg" alt="">
+		  <img src="img/clients/theroyalparks03.jpg" alt="Carefully cleaning each piece of crystal">
 		  </a>
 	  </div>
 

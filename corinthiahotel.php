@@ -3,22 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Corinthia Hotel London - Chandelier Cleaning</title>
-    <link rel="stylesheet" href="assets/styles.css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <link href="assets/lightbox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-  <!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $corinthiahotelpage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -53,7 +39,8 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -74,13 +61,13 @@
 
   		<section class="halfheroimagecocoen">
             <div class="cocoen">
-              <img src="img/clients/corinthiabefore.jpg" alt="">
-              <img src="img/clients/corinthiaafter.jpg" alt="">
+              <img src="img/clients/corinthiabefore.jpg" alt="Moon Chandelier before Cleaning">
+              <img src="img/clients/corinthiaafter.jpg" alt="Moon Chandelier After Cleaning">
             </div>
 
 			<div class="styledstrip">
-				<a href="privateresident.php"><h3 class="previous"><img src="img/left-arrow.png"></h3>
-				</a><a href="theroyalparks.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a> 
+				<a href="privateresident.php"><h3 class="previous"><img src="img/left-arrow.png" alt="Previous Image"></h3>
+				</a><a href="theroyalparks.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next Image"></h3></a> 
 			</div>
              <!-- <summary>The title of this page lorem</summary> -->
 

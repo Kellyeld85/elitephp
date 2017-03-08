@@ -1,10 +1,7 @@
 User-agent: *
-Disallow: /includes/
-Disallow: /assets/
-Disallow: /easy_contact/
-Disallow: /draft/
-Disallow: /oldsite/
-Disallow: /js/
+Disallow: /easy_contact
+Disallow: /easy_contactie
+Disallow: /oldsite
+Disallow: /thank-you.php
 
-sitemap: www.elitechandelier.com/sitemap.xml
 sitemap: http://www.elitechandeleir.com/sitemap.xml

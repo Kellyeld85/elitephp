@@ -15,7 +15,7 @@
         var settings = $.extend({
             modalTarget:'animatedModal',
             position:'fixed',
-            width:'100%',
+            width:'50%',
             height:'100%',
             top:'0px',
             left:'0px',
@@ -24,8 +24,8 @@
             color: '#39BEB9', 
             opacityIn:'1',
             opacityOut:'0',
-            animatedIn:'zoomIn',
-            animatedOut:'zoomOut',
+            animatedIn:'slideInLeft',
+            animatedOut:'slideOutLeft',
             animationDuration:'.6s',
             overflow:'auto',
             // Callbacks

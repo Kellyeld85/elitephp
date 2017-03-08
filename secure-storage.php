@@ -3,21 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chandelier Load Testing Service</title>
-    <link rel="stylesheet" href="assets/styles.css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $storagepage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -51,7 +38,7 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -78,12 +65,12 @@ Services is fully security cleared.</p>
 <p> If you’d like to know more about this service or have specific storage requirements, do
 give us a call. We’re always happy to help.</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/store01.jpg" alt="Secure Storage Service"></div>
+<div class="services-area"> <img class="hidden" src="img/store01.jpg" alt="Secure Storage boxes"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/store02.jpg" alt="Chandelier Storage Service"></div>
+  <div class="services-area"> <img class="image" src="img/store02.jpg" alt="Chandelier secured and ready for storage"></div>
 <div class="services-area">
 <ul>
   <li>☑ Careful removal and dismantling of the chandelier</li>

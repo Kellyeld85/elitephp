@@ -38,7 +38,7 @@
 		color       : #222b58;
 		text-align  : right;
 		font-family : $helvetica;
-		font-size   : 3rem;
+		font-size   : 1.5rem;
 }
 
 .close-btnfront:hover {
@@ -56,5 +56,5 @@
 .modalnav {
 		@include    span-columns (12 of 12);
 		padding   : 0 15rem;
-		font-size : 2rem;
+		font-size : 1.2rem;
 }

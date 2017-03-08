@@ -17,15 +17,15 @@
 
 	                <hr class="style17">
 
-	                <div class="getintough ">
+	                <div class="getintough gitcontact">
 		                <h2>CALL US</h2>
 		                <p>0208 442 9119 </p>
 	                </div>
-					<div class="getintough hidden">
+					<div class="getintough gitcontact gone">
 		                <h2>SEND US A MESSAGE</h2>
 		                <p>Fill in the form below</p>
 	                </div>
-					<div class="getintough">
+					<div class="getintough gitcontact">
 		                <h2>EMAIL US</h2>
 		                <p>info@elitechandelier.com</p>
 	                </div>
@@ -36,14 +36,14 @@
 
 		<form action="'.htmlspecialchars($_SERVER['PHP_SELF']).'" method="post"  '.$formEnctype.'  >
 			<div class="inputareas">
-			    <div class="contactright"> ';
+			    <div class="mainformleft contactright "> ';
 
 					foreach ($easyForm->field as $varName => $arrValue) {
 							$easyForm->displayField($varName, $successSent);
 					}
 
 		echo 	'</div>
-				<div class="contactleft"> ';
+				<div class="mainformright contactleft "> ';
 
 						foreach ($easyForm2->field as $varName => $arrValue) {
 							$easyForm2->displayField($varName, $successSent);

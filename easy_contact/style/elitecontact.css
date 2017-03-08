@@ -1,3 +1,5 @@
+
+
 #captchaImg {
 			margin: 3px auto -7px;
       display:block;
@@ -48,19 +50,19 @@
 			display: none;		}
 
 			.contactform input {
-		    width: 85%;
+		    width: 100%;
 		    margin-top: .6rem ;
 
 		}
 
 		.contactform textarea {
-		    width: 85%;
+		    width: 100%;
 		    display: block;
-		    margin: 0 0 0 8%;
+		    margin: 0 0 0 0;
 		}
 
 		.contactform button {
-		    width: 94%;
+		    width: 95%;
 		    margin: 1rem;
 		    text-align: center;
 				color:#fff;

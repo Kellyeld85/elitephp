@@ -52,7 +52,6 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
 <div id="preloader">
   <div id="status">&nbsp;</div>
 </div>

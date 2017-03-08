@@ -3,13 +3,16 @@
 	@include   outer-container(70%);
 }
 .contactform {
+	text-align: center;
 
 	h1{
-		padding: 10px 20px 0 20px;
+		padding: 20px 20px 0 20px;
 		margin-bottom: 30px;
+		font-size: 2rem;
 	}
 	p{
-		padding: 0 20px 50px 20px;
+		font-size: 1.5rem;
+		padding: 0 20px 20px 20px;
 	}
 	img {
 		max-width: 200px;
@@ -18,14 +21,14 @@
 		width: 400px;
 	}
 
-}
 
+}
 .close-btn:hover {cursor:pointer; }
 
 .getintough{
 	@include   span-columns(4 of 12);
 	padding: 10px;
-	margin: 20px 0 10px 0;
+	margin-top:10px;
 	h2{
 		font-size: 1.8rem;
 	}
@@ -36,7 +39,7 @@
 
 hr.style17 {
 	border-top: 1px solid #8c8b8b;
-	text-align: center;
+	margin-bottom: 20px;
 }
 hr.style17:after {
 	content: '§';
@@ -47,14 +50,14 @@ hr.style17:after {
 	padding-right: 25px;
 	background: #fff;
 	color: #222b58;
-	font-size: 3.0rem;
+	font-size: 3rem;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
 
 .inputareas{
-	@include              display(flex);
+  @include              display(flex);
   @include              flex-direction(row);
 }
 
@@ -74,6 +77,7 @@ textarea {
 
 	width: 100px;
 	border  : none;
+	height: 50px;
 }
 
 
@@ -100,8 +104,35 @@ background: #222b58;
 color:#fff;
 padding:10px;
 font-size:1.2em;
+margin-bottom: 40px;
 }
 
 .submitbtn input:hover {
 cursor: pointer;
+}
+
+
+
+.contactform{
+	width: 90%;
+	margin: 0 auto;
+	h1{
+		padding-top: 50px;
+	}
+	.mainformleft{
+		width: 50%;
+		float: left;
+		box-sizing: border-box;
+	}	
+	.mainformright{
+		width: 50%;
+		float: left;
+		box-sizing: border-box;
+		
+	}
+	.gitcontact{
+	@include  span-columns(4 of 12);	
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 }

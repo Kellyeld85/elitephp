@@ -1,4 +1,27 @@
  @import "assets";
+ 
+ //Firefox Conditionals
+ @-moz-document url-prefix() { 
+	 
+	 .wholeheroimagelowtitle, .halfheroimagelowtitle{
+	 	display: block;
+	}
+
+  .summary{
+	  font-size: 2rem;
+	  position: absolute;
+	  margin-top: -110px;
+  }
+ }
+ 
+ 
+ //Safari and chrome conditional
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+	   .summary{
+	  margin-top: -110px;
+  }
+ }
+ 
 
 /*
  * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
@@ -23,7 +46,7 @@
 	 	display: none;
  	}
     
-    
+
     
     
   }  
@@ -32,19 +55,30 @@
     
 //ie 10
 .ie10 body {
+	 
+	.wholeheroimagelowtitle .ie9 {
+		position: absolute;
+		top:45%;
+		left: 50%;
+		margin-left: -200px;
+		text-align: center;
+		display: block;
+}
+	 
 	    
-	.wholeheroimagelowtitle{
-	position: relative;
-	margin: 10px auto;
+	.halfheroimagelowtitle{
+		display: block;
 	}
 
-  
 
-	.halfheroimagelowtitle,
-	.summary {
-		margin-top: -100px;
- 	}
- 	
+  .summary{
+	  font-size: 2rem;
+	  position: absolute;
+	  margin-top: -100px;
+	  margin-left: 0px;
+  }
+
+
  	
  	.services{
 	 	overflow: hidden;
@@ -60,11 +94,7 @@
  	}
  	
  	
- 	/*  contact form */
- 	.contactform h1{
-	 	margin-top: 80px;
-	 	
- 	}
+
 
  	label {
 	 	display: none;
@@ -104,9 +134,7 @@
 	}
  	
  	
- 	 		.contactright, .contactleft{
-			width: 50%;
-		} 
+
   
  	
 	/* ------------- Media queries 1600px -------------- */
@@ -128,6 +156,7 @@
 		 		.contactright, .contactleft{
 			width: 100%;
 		} 
+
 }
 
 /* ------------- Media queries 1090px -------------- */
@@ -149,13 +178,24 @@
 	
 }
     
+// ie 11 fixes
+  .ie11fix{
+	  font-size: 2rem;
+	  position: absolute;
+	  margin-top: -100px;
+	  margin-left: 125px;
+  }
+
+
     
-    
+#method1 b {
+	display:none;
+}  
 
   
 
   
-  img {
+  .shrink {
   max-width: 100%;
   flex-shrink: 0;
 }
@@ -163,14 +203,13 @@
 
 
 
-/* Globals */
+/*--------------------- Globals ----------------------*/
 
 body {
   min-width   : 320px;
   font-family : 'berkeleyregular';
   background: #F9F9F9;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
 }
 
 .mobileheader {
@@ -223,6 +262,55 @@ html {
   /* is width and height divided by two */
 }
 
+
+	.privacy{
+		padding: 30px;
+		margin: 10px;
+	}
+
+
+	//mobile navbar
+	.wrap{
+		width: 400px;
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	
+	.modallogoimg{
+		@include span-columns (12 of 12);
+		width: 400px;
+		padding: 0 5rem;
+		}
+
+	.modalnav{
+		@include span-columns (12 of 12);
+		padding: 0 5rem;
+		font-size: 1.2rem;
+
+	}
+
+	//contact form
+	.getintough{
+		@include   span-columns(12 of 12);
+		margin: 0px;
+		padding: 0px;
+	}
+	.hidden {
+		display: none;
+	}
+
+	.inputareas{
+		display: block;
+	}
+	textarea{
+		padding : 10px;
+	}
+
+
+
+
 aside {
   background : #fff;
 
@@ -257,7 +345,9 @@ h3 {
 
 /* End global container */
 
-
+    	label {
+	 	display: none;
+ 	}
 
 /* End All Globals */
 
@@ -371,7 +461,6 @@ section{
 
 
 .image{
-
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -631,10 +720,16 @@ section{
     border-left: #fff solid 10px;
 }
 
+.mtext{
+	font-size: 1.5rem;
+	padding-right: 10px;
+	text-align: center;
+}
 
 .services {
   @include outer-container(100%);
     @include row();
+    overflow: hidden;
 }
 
 .blue {background:#222b58; margin-top: 20px;}
@@ -649,6 +744,9 @@ section{
    margin-top: 40%;
    padding:40px;
    list-style-type: none;}
+   .hidden{
+	   display: block;
+   }
 }
 
 .blue {background: #222b58; margin-bottom:20px; }
@@ -663,9 +761,7 @@ section{
 }
 
 .align {
-  top: 15%;
-   left: 0%;
-   transform: translate(0%, 15%);
+	 margin-top: 30px;
      padding:30px;
   }
 
@@ -780,6 +876,7 @@ section{
       color: $base-font-color;
       line-height: $base-line-height;
       margin-left:30px;
+      margin-right: 30px;
       font-size: 1.5em;
     }
 

@@ -3,20 +3,7 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Banqueting House - Chandelier Cleaning</title>
-     <link rel="stylesheet" href="assets/styles.css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-     <link href="assets/lightbox.min.css" rel="stylesheet">   
-	 <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
+  <?php $banquetinghousepage = 1; include ('includes/meta.php') ?>
 
 		<?php 
 		
@@ -51,7 +38,8 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>	
+	
+	  <?php include_once("analyticstrackingtwo.php") ?>
 	
 <!-- Preloader -->
 <div id="preloader">
@@ -74,12 +62,12 @@
 
   		<section>
             <div class="image">
-              <img src="img/clients/banquetmain.jpg" alt="">
+              <img src="img/clients/banquetmain.jpg" alt="Chandeliers at Banqueting House">
 
             </div>
 
             <div class="styledstrip">
-	            <a href="heathrow.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a> 
+	            <a href="heathrow.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next Image"></h3></a> 
 	         </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
@@ -101,34 +89,34 @@
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet01.jpg" data-lightbox="Chandelier at Banquet house">
-		  	<img src="img/clients/banquet01.jpg" alt="">
+		  	<img src="img/clients/banquet01.jpg" alt="wonderful painted ceiling is lit by 4 beautiful brass chandeliers">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet02.jpg" data-lightbox="Chandelier at Banquet house">
-		  <img src="img/clients/banquet02.jpg" alt="">
+		  <img src="img/clients/banquet02.jpg" alt="Chandeliers liting the Banqueting Hall">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet03.jpg" data-lightbox="Chandelier at Banquet house">
-		  <img src="img/clients/banquet03.jpg" alt="">
+		  <img src="img/clients/banquet03.jpg" alt="Load Testing at Banqueting house">
 		  </a>
 	  </div>
 
 	  
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet04.jpg" data-lightbox="Chandelier at Banquet house">
-		  	<img src="img/clients/banquet04.jpg" alt="">
+		  	<img src="img/clients/banquet04.jpg" alt="Banqueting House Chandelier Cleaning">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet05.jpg" data-lightbox="Chandelier at Banquet house">
-		  <img src="img/clients/banquet05.jpg" alt="">
+		  <img src="img/clients/banquet05.jpg" alt="Restored back to beauty">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/banquet06.jpg" data-lightbox="Chandelier at Banquet house">
-		  <img src="img/clients/banquet06.jpg" alt="">
+		  <img src="img/clients/banquet06.jpg" alt="hand cleaned and polished">
 		  </a>
 	  </div>
 

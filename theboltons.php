@@ -3,22 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Private Resident at The Boltons London</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-    <link href="assets/lightbox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $theboltonspage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -51,7 +37,7 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -72,13 +58,13 @@
 
   		<section>
             <div class="image">
-              <img src="img/clients/theboltonsmain.jpg" alt="">
+              <img src="img/clients/theboltonsmain.jpg" alt="chandelier in the luxary hall in the Boltons">
 
             </div>
 
             <div class="styledstrip">
-	            <a href="westfieldlondon.php"><h3 class="previous"><img src="img/left-arrow.png"></h3></a> 
-	            <a href="privateresidentliverpool.php"> <h3 class="next"><img src="img/right-arrow.png"></h3></a>
+	            <a href="westfieldlondon.php"><h3 class="previous"><img src="img/left-arrow.png" alt="previous client westfields shopping center"></h3></a> 
+	            <a href="privateresident.php"> <h3 class="next"><img src="img/right-arrow.png" alt="Next client private resident"></h3></a>
 	        </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
@@ -86,8 +72,7 @@
   		<div class="description">
 		      	<h1>Private Resident at The Boltons London</h1>
 		      <p>This resident at the Bolton’s in Chelsea has magnificent regal reception rooms, redolent with crystal chandeliers, upon entering.  </p>
-		      <p>This four story house has beautiful chandeliers and wall lamps across all floors each one carefully cleaned, polished and light bulbs replaced brining back their original beauty.
-</p>
+		      <p>This four story house has beautiful chandeliers and wall lamps across all floors each one carefully cleaned, polished and light bulbs replaced brining back their original beauty.</p>
 
 
   		</div>
@@ -100,33 +85,33 @@
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons01.jpg" data-lightbox="Chandelier at The Boltons">
-		  <img src="img/clients/theboltons01.jpg" alt="Private at the boltons">
+		  <img src="img/clients/theboltons01.jpg" alt="cleaned chandelier at the boltons in London">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons02.jpg" data-lightbox="Chandelier at The Boltons">
-		  <img src="img/clients/theboltons02.jpg" alt="Private at the boltons">
+		  <img src="img/clients/theboltons02.jpg" alt="Cleaned chandelier hanging in luxary hall">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons03.jpg" data-lightbox="Chandelier at The Boltons">
-		  <img src="img/clients/theboltons03.jpg" alt="Private at the boltons">
+		  <img src="img/clients/theboltons03.jpg" alt="long chandeiler cleaned in situ">
 		  </a>
 	  </div>
 
 	   <div class="clientcard">
 		   <a href="img/clients/Large/theboltons04.jpg" data-lightbox="Chandelier at The Boltons">
-		   <img src="img/clients/theboltons04.jpg" alt="Private at the boltons">
+		   <img src="img/clients/theboltons04.jpg" alt="Wall lamps cleaned">
 		   </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons05.jpg" data-lightbox="Chandelier at The Boltons">
-		  <img src="img/clients/theboltons05.jpg" alt="Private at the boltons">
+		  <img src="img/clients/theboltons05.jpg" alt="Conservatory chandelier cleaned">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/theboltons06.jpg" data-lightbox="Chandelier at The Boltons">
-		  <img src="img/clients/theboltons06.jpg" alt="Private at the boltons">
+		  <img src="img/clients/theboltons06.jpg" alt="Cleaned candle chandelier">
 		  </a>
 	  </div>
 

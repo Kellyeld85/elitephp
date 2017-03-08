@@ -3,21 +3,7 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Harrods - Chandelier Cleaning</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <link href="assets/lightbox.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-	 <!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
+  <?php $harrodspage = 1; include ('includes/meta.php') ?>
 
 		<?php 
 		
@@ -44,14 +30,14 @@
 			<!--><script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
 		<!--<![endif]-->
 
-		<!--[if IE]>
+	<!--[if IE]>
 	<link rel="stylesheet" href="assets/iefixes.css">
 	<![endif]-->
 	
 </head>
 
 <body>
-	<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -73,13 +59,13 @@
 
   		<section>
             <div class="image">
-              <img src="img/clients/harrodsmain.jpg" alt="">
+              <img src="img/clients/harrodsmain.jpg" alt="Round chandelier at harrods store">
 
             </div>
 
             <div class="styledstrip">
-		        <a href="heathrow.php"><h3 class="previous"><img src="img/left-arrow.png"></h3></a> 
-	            <a href="privateresident.php"> <h3 class="next"> <img src="img/right-arrow.png"></h3></a> 
+		        <a href="heathrow.php"><h3 class="previous"><img src="img/left-arrow.png" alt="Previous client heathrow"></h3></a> 
+	            <a href="privateresidentliverpool.php"> <h3 class="next"> <img src="img/right-arrow.png" alt="Next client private resident"></h3></a> 
             </div>
              <!-- <summary>The title of this page lorem</summary> -->
 
@@ -88,7 +74,7 @@
 
   		<div class="description">
 		      	<h1>Harrods</h1>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quam, totam, animi qui est necessitatibus dolores nesciunt, molestias hic ad ut eaque quaerat, accusantium reprehenderit eveniet! Accusamus, molestiae optio! Repudiandae!</p>
+		      <p>Cleaning of all chandeliers on ground floor of Harrods Store in London </p>
 			  <h1>Testimonial</h1>
 		      <p>"Elite has been looking after all the chandelier cleaning Harrods for over 25 years and in that time we have never had fault with elite and Alberts service thank you again "</p>
 
@@ -102,33 +88,33 @@
 
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods01.jpg" data-lightbox="Chandelier at Harrods">
-		  <img src="img/clients/harrods01.jpg" alt="">
+		  <img src="img/clients/harrods01.jpg" alt="Chandelier in Hall">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods02.jpg" data-lightbox="Chandelier at Harrods">
-		  <img src="img/clients/harrods02.jpg" alt="">
+		  <img src="img/clients/harrods02.jpg" alt="throughout the hall at Harrods">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods03.jpg" data-lightbox="Chandelier at Harrods">
-		  <img src="img/clients/harrods03.jpg" alt="">
+		  <img src="img/clients/harrods03.jpg" alt="The stairwell chandelier at Harrods">
 		  </a>
 	  </div>
 
 	   <div class="clientcard">
 		   <a href="img/clients/Large/harrods04.jpg" data-lightbox="Chandelier at Harrods">
-		   <img src="img/clients/harrods04.jpg" alt="">
+		   <img src="img/clients/harrods04.jpg" alt="Long rounded chandelier at Harrods">
 		   </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods05.jpg" data-lightbox="Chandelier at Harrods">
-		  <img src="img/clients/harrods05.jpg" alt="">
+		  <img src="img/clients/harrods05.jpg" alt="Crystal droplets chandelier at Harrods">
 		  </a>
 	  </div>
 	  <div class="clientcard">
 		  <a href="img/clients/Large/harrods06.jpg" data-lightbox="Chandelier at Harrods">
-		  <img src="img/clients/harrods06.jpg" alt="">
+		  <img src="img/clients/harrods06.jpg" alt="Crystal droplets chandelier at Harrods">
 		  </a>
 	  </div>
 

@@ -3,21 +3,8 @@
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chandelier Load Testing Service</title>
-    <link rel="stylesheet" href="assets/styles.css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- jQuery Plugin -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="js/customjs.js"></script>
-    <script src="js/flip.min.js"></script>
-
+  <?php $loadtestingpage = 1; include ('includes/meta.php') ?>
+  
 		<?php 
 		
 			if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 9.') !== FALSE)
@@ -51,7 +38,7 @@
 </head>
 
 <body>
-<?php include_once("analyticstracking.php") ?>
+	  <?php include_once("analyticstrackingtwo.php") ?>
 <!-- Preloader -->
 <div id="preloader">
   <div id="status">&nbsp;</div>
@@ -80,12 +67,12 @@ professionals.</p>
 <p> A certificate of this test will be given to you on completion and we will advise you on when
 you might need to do another test to guarantee the safety of your chandelier.</p>
 </div>
-<div class="services-area"> <img class="hidden" src="img/loadtesting01.jpg" alt="Chandelier Load Testing Service"></div>
+<div class="services-area"> <img class="hidden" src="img/loadtesting01.jpg" alt="Load Tested Chandelier"></div>
 
 </div>
 
 <div class="services blue">
-  <div class="services-area"> <img class="image" src="img/loadtesting02.jpg" alt="Load Testing Chandelier Service"></div>
+  <div class="services-area"> <img class="image" src="img/loadtesting02.jpg" alt="Load Testing Chandelier"></div>
 <div class="services-area">
 <ul>
   <li>☑ Load safety test performed</li>
